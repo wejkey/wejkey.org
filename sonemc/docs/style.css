@@ -284,9 +284,11 @@ footer hr {
 
 /* HR */
 .separator {
-  width: 80%;
-  height: 5px;
   border: none;
-  background: linear-gradient(90deg, transparent, #c2185ca9, transparent);
-  margin: 30px auto;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #c2185c, transparent);
+  margin: auto; 
+  margin-top: -15px;
+  margin-bottom: 15px;
+  width: 80%; 
 }
