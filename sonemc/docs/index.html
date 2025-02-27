@@ -144,13 +144,14 @@ no-mob-message: "&cYou are not looking at mob"
 
   <section id="valentines" class="plugin-details">
     <div class="container">
-      <h2>Valentine - 1.0-dev3</h2>
+      <h2>Valentine - 1.0-dev4</h2>
       <p class="small-text">All those hearts in one plugin. No, this plugin wont find girlfriend for you.</p>
       <div class="plugin-features">
         <h3>Features:</h3>
         <ul>
-          <li>Name a mob without NT</li>
-          <li>Remove NT from a mob</li>
+          <li>You can Kiss / Hug someone</li>
+          <li>You can see how many kisses and hugs you got</li>
+          <li>96% of messages are editable in config.yml</li>
         </ul>
       </div>
 
@@ -218,13 +219,21 @@ no-mob-message: "&cYou are not looking at mob"
       <div class="plugin-config">
         <h3>config.yml:</h3>
         <pre>
+          # Permissions
           no-permissions: "&cSadly, you have no permissions"
+          
+          # Hug Messages
           Hug: "&f{player} &ahugs you."
           HugReceived: "&fYou were hugged by &a{player}!"
+          hugged: "&fYou hugged &a{player}"
+          
+          # Kiss Messages
           Kiss: "&f{player} &akissed you."
           KissReceived: "&fYou were kissed by &a{player}!"
-          hugged: "You hugged {player}"
-          kissed: "You kissed {player}"
+          kissed: "&fYou kissed &a{player}"
+          
+          # Chat Features
+          heart-color: "&c"  # Color of heart that replaces "love"
 </pre>
       </div>
 
@@ -232,7 +241,7 @@ no-mob-message: "&cYou are not looking at mob"
       <div class="plugin-downloads">
         <h3>Downloads:</h3>
         <div class="download-buttons">
-          <a href="https://github.com/wejkey/Valentines/releases/tag/1.0-dev3" target="_blank" class="btn-download" data-tooltip="Download from GitHub">
+          <a href="https://github.com/wejkey/Valentines/releases/tag/1.0-dev4" target="_blank" class="btn-download" data-tooltip="Download from GitHub">
             <i class="fab fa-github"></i>
           </a>
         </div>
