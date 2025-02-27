@@ -1,5 +1,4 @@
 const holidays = {
-    "springBreakCentral": { start: new Date('2025-03-01T00:00:00'), end: new Date('2025-03-09T23:59:59') },
     "easterBreak": { start: new Date('2025-04-17T00:00:00'), end: new Date('2025-04-22T23:59:59') },
     "summerBreak": { start: new Date('2025-06-28T00:00:00'), end: new Date('2025-09-01T23:59:59') }
 };
@@ -24,7 +23,6 @@ function countdown(date, elementId) {
 }
 
 function updateCountdowns() {
-    countdown(holidays.springBreakCentral.start, 'spring-break-central');
     countdown(holidays.easterBreak.start, 'easter-break');
     countdown(holidays.summerBreak.start, 'summer-break');
 }
