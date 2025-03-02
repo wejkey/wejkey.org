@@ -1,183 +1,80 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
-}
-
+/* Base styles for smaller screens */
 body {
-    background-color: #1e1e1e;
-    color: #ffffff;
-    font-family: 'Arial', sans-serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  background-color: #0f0f0f;
+  color: #464646;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-header {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
 }
 
-h1 {
-    margin: 0;
-    font-size: 2.5em;
-    color: #00d1b2;
+.container h1 {
+  font-size: 3rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
 }
 
-section#projects {
-    margin: 40px auto;
-    width: 80%;
-    max-width: 1200px; 
-    flex-grow: 1;
+.container p {
+  font-size: 1.3rem;
+  margin: 5px 0;
 }
 
-.project {
-    background-color: #282828;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-    position: relative;
-    top: -15px;
-    overflow: hidden; 
+.icons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
-.project-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.icons a {
+  text-decoration: none;
+  color: #464646;
+  font-size: 1.2rem;
 }
 
-.project h3 {
-    font-size: 1.5em;
-    color: #00d1b2;
-    margin-bottom: 10px;
+.icons a:hover {
+  color: #00aaff;
 }
 
-.last-update {
-    font-size: 0.9em;
-    color: #aaaaaa;
-    margin-left: auto;
-    margin-top: -30px; 
+@media (max-width: 600px) {
+  .container h1 {
+    font-size: 2.5rem; 
+  }
+  .container p {
+    font-size: 1rem; 
+  }
+  .icons {
+    flex-direction: column; 
+    gap: 10px;
+  }
+  .icons a {
+    font-size: 1rem; 
+  }
 }
 
-.project p {
-    font-size: 1.1em;
-    margin-bottom: 15px;
-}
-
-.project a {
-    color: #00d1b2;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-.project a:hover {
-    color: #ffffff;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    margin-top: auto;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-footer p {
-    margin: 0;
-    color: #cccccc;
-}
-
-::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
-}
-
-::-webkit-scrollbar-track {
-    background: #121212;
-    border-radius: 10px; 
-}
-
-::-webkit-scrollbar-thumb {
-    background: #00d1b2; 
-    border-radius: 10px; 
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #02e3c2; 
-}
-
-/* Firefox */
-* {
-    scrollbar-width: thin; 
-    scrollbar-color: #00d1b2 #121212; 
-}   
-
-/* Project2 */
-.pin-icon {
-    width: 20px;
-    height: 20px; 
-    margin-right: 10px;
-    object-fit: contain; 
-}
-
-.project2 {
-    background: linear-gradient(45deg, #f39c12, #e67e22, #f39c12);
-    border-color: #e67e22;
-    animation: shadowBlurOrange 9s infinite;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 10px;
-    position: relative;
-    top: -15px;
-    overflow: hidden; 
-}
-
-.project-header2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.project2 h3 {
-    font-size: 1.5em;
-    color: #ffffff;
-    margin-bottom: 10px;
-}
-
-.last-update2 {
-    font-size: 0.9em;
-    color: #000000;
-    margin-left: auto;
-    margin-top: -30px; 
-}
-
-.project2 p {
-    font-size: 1.1em;
-    margin-bottom: 15px;
-}
-
-.project2 a {
-    color: #96ffef;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-@keyframes shadowBlurOrange {
-    0% {
-        box-shadow: 0 0 10px #e67e22;
-    }
-    50% {
-        box-shadow: 0 0 30px #e67e22;
-    }
-    100% {
-        box-shadow: 0 0 10px #e67e22;
-    }
+@media (min-width: 1200px) {
+  .container {
+    width: 80%; 
+  }
+  .container h1 {
+    font-size: 4rem; 
+  }
+  .container p {
+    font-size: 1.5rem; 
+  }
+  .icons a {
+    font-size: 1.5rem; 
+  }
 }
