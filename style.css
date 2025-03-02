@@ -18,7 +18,7 @@ body {
   padding: 10px;
 }
 
-.container h1 {
+.container h1 { 
   font-size: 3rem;
   margin: 0;
   display: flex;
@@ -49,7 +49,7 @@ body {
 
 @media (max-width: 600px) {
   .container h1 {
-    font-size: 2.5rem; 
+    font-size: 2.2rem; 
   }
   .container p {
     font-size: 1rem; 
@@ -62,13 +62,12 @@ body {
     font-size: 1rem; 
   }
 }
-
 @media (min-width: 1200px) {
   .container {
     width: 80%; 
   }
   .container h1 {
-    font-size: 4rem; 
+    font-size: 3.6rem; 
   }
   .container p {
     font-size: 1.5rem; 
