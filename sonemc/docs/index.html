@@ -20,6 +20,7 @@
         <ul class="nav-links">
           <li><a href="#nti">NameTagIt</a></li>
           <li><a href="#valentines">Valentines</a></li>
+          <li><a href="#serverdetails">ServerDetails</a></li>
         </ul>
       </nav>
     </div>
@@ -31,7 +32,7 @@
       <div class="container home-content">
         <h1>Documentation</h1>
         <p>
-          Plugins installation and configuration help.
+          Plugins installation and configuration help page.
         </p>
       </div>
     </section>
@@ -39,7 +40,7 @@
   <!-- Plugin A Details Section -->
   <section id="nti" class="plugin-details">
     <div class="container">
-      <h2>NameTagIt - 1.0</h2>
+      <h2>NameTagIt - 1.1</h2>
       <p class="small-text">Plugin that allows to put nametag on mobs using only command, so you dont need any nametags. But <b>you need to look at the mob</b> when you naming it.</p>
       <div class="plugin-features">
         <h3>Features:</h3>
@@ -112,12 +113,6 @@ removed-message: "&cYou removed a nametag from this mob"
 no-mob-message: "&cYou are not looking at mob"
 </pre>
       </div>
-
-      <!-- Media -->
-      <div class="plugin-media">
-        <h3>Media:</h3>
-        <img src="https://github.com/wejkey/SoneMC/raw/main/images/gifs/nametagit.gif">
-        </div>
 
       <!-- Downloads -->
       <div class="plugin-downloads">
@@ -278,11 +273,147 @@ no-mob-message: "&cYou are not looking at mob"
 
 
 
+   <section id="serverdetails" class="plugin-details">
+    <div class="container">
+      <h2>ServerDetails - 1.0</h2>
+      <p class="small-text">All basic server information and resources usage in one command</p>
+      <div class="plugin-features">
+        <h3>Features:</h3>
+        <ul>
+          <li>Resources Usage (CPU, RAM, STORAGE)</li>
+          <li>All in one command</li>
+        </ul>
+      </div>
+
+      <!-- Commands Table -->
+      <div class="plugin-commands">
+        <h3>Commands:</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Command</th>
+              <th>Alias</th>
+              <th>Description</th>
+              <th>Permission</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>/serverdetails</td>
+              <td>-</td>
+              <td>Displays informations</td>
+              <td>ServerDetails.use</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Permissions Table -->
+      <div class="plugin-permissions">
+        <h3>Permissions:</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Permission</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>ServerDetails.use</td>
+              <td>Can use the plugin</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- config.yml -->
+      <div class="plugin-config">
+        <h3>config.yml:</h3>
+        <pre>
+          show-server-version: true
+          show-server-software: true
+          show-server-ip: true
+          show-server-worlds: true
+          show-server-plugins: true
+          show-server-ping: true
+          show-whitelist-status: true
+          show-ram-usage: true
+          show-cpu-usage: true
+          show-storage-usage: true
+          show-connected-players: true
+          show-op-players: true
+          show-time: true     
+</pre>
+      </div>
+
+      <div class="plugin-config">
+        <h3>Chat Output:</h3>
+        <pre>
+          Executed by: (name)
+          Time: (year)(month)(day) | (hours)(minutes)(seconds)
+          Server Version: ... (1.20;1.20...)
+          Server Software: (Paper;Spigot...)
+          Server IP: (minecraft.server.com:25565)
+          Server Worlds: (world, lobby...)
+          Server Plugins: (Plugin1, Plugin2...)
+          Server MS (ping): (20;120...)
+          Server Whitelist (Yes/No)
+          RAM Usage: (500MB / 4000MB)
+          CPU Usage: (20%;57%...)
+          Storage Usage: (200GB free / 2TB total)
+          Connected Players: (1;7...)
+          OP Players: (None / Player1, Player2)
+</pre>
+      </div>
+      
+      
+      
+
+      <!-- Downloads -->
+      <div class="plugin-downloads">
+        <h3>Downloads:</h3>
+        <div class="download-buttons">
+          <a href="https://www.spigotmc.org/resources/serverdetails.123203/" target="_blank" class="btn-download" data-tooltip="Download from SpigotMC">
+            <i class="fas fa-cubes"></i>
+          </a>
+          <a href="https://github.com/wejkey/ServerDetails/releases/download/1.0/ServerDetails_1.0.jar" target="_blank" class="btn-download" data-tooltip="Download from GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+  
+  </div>
+  </section>
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- End  -->
+
+   <hr class="separator">
+
+   <!-- End  -->
 
 
 
