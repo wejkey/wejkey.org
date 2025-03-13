@@ -21,6 +21,7 @@
           <li><a href="#nti">NameTagIt</a></li>
           <li><a href="#valentines">Valentines</a></li>
           <li><a href="#serverdetails">ServerDetails</a></li>
+          <li><a href="#team">Team</a></li>
         </ul>
       </nav>
     </div>
@@ -129,11 +130,37 @@ no-mob-message: "&cYou are not looking at mob"
   </div>
   </section>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <!-- VALENTINES  -->
 
   <hr class="separator">
 
   <!-- VALENTINES  -->
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -263,11 +290,29 @@ no-mob-message: "&cYou are not looking at mob"
 
 
 
+
+
+
+
+
+
+
+
    <!-- End  -->
 
    <hr class="separator">
 
    <!-- End  -->
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -399,6 +444,164 @@ no-mob-message: "&cYou are not looking at mob"
 
 
 
+   <!-- End  -->
+
+   <hr class="separator">
+
+   <!-- End  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <section id="team" class="plugin-details">
+    <div class="container">
+      <h2>Team - 1.0-dev1</h2>
+      <p class="small-text">Displays server's active AdminTeam players.</p>
+      <div class="plugin-features">
+        <h3>Features:</h3>
+        <ul>
+          <li>Editable Prefixes, Priorities, Messages</li>
+          <li>Able to see who from Admins is online</li>
+        </ul>
+      </div>
+
+      <!-- Commands Table -->
+      <div class="plugin-commands">
+        <h3>Commands:</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Command</th>
+              <th>Alias</th>
+              <th>Description</th>
+              <th>Permission</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>/team</td>
+              <td>-</td>
+              <td>Displays the team list</td>
+              <td>team.use</td>
+            </tr>
+            <tr>
+              <td>/adminteam</td>
+              <td>-</td>
+              <td>Displays the team list</td>
+              <td>team.use</td>
+            </tr>
+            <tr>
+              <td>/staff</td>
+              <td>-</td>
+              <td>Displays the team list</td>
+              <td>team.use</td>
+            </tr>
+            <tr>
+              <td>/supportteam</td>
+              <td>-</td>
+              <td>Displays the team list</td>
+              <td>team.use</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Permissions Table -->
+      <div class="plugin-permissions">
+        <h3>Permissions:</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Permission</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>team.use</td>
+              <td>Display the team list(s)</td>
+            </tr>
+            <tr>
+              <td>team.owner</td>
+              <td>Put prefix "Owner" to a player in the team list</td>
+            </tr>
+            <tr>
+              <td>team.developer</td>
+              <td>Put prefix "Developer" to a player in the team list</td>
+            </tr>
+            <tr>
+              <td>team.helper</td>
+              <td>Put prefix "Helper" to a player in the team list</td>
+            </tr>
+            <tr>
+              <td>team.builder</td>
+              <td>Put prefix "Builder" to a player in the team list</td>
+            </tr>
+            <tr>
+              <td>team.support</td>
+              <td>Put prefix "Support" to a player in the team list</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- config.yml -->
+      <div class="plugin-config">
+        <h3>config.yml:</h3>
+        <pre>
+          # Prefixes
+          prefixes:
+            team.owner: "&cOwner"
+            team.developer: "&9Developer"
+            team.helper: "&aHelper"
+            team.builder: "&bBuilder"
+            team.support: "&7Support"
+          
+          # Priorities (1 = highest priority)
+          priorities:
+            team.owner: 1
+            team.developer: 2
+            team.helper: 3
+            team.builder: 4
+            team.support: 5
+          
+          # Messages
+          message:
+            online: "&aOnline"
+            no-permission: "&cYou don't have permission for this command!"             
+</pre>
+      </div>
+      
+      <!-- Downloads -->
+      <div class="plugin-downloads">
+        <h3>Downloads:</h3>
+        <div class="download-buttons">
+          <a href="https://www.spigotmc.org/resources/team.123236/" target="_blank" class="btn-download" data-tooltip="Download from SpigotMC">
+            <i class="fas fa-cubes"></i>
+          </a>
+          <a href="https://github.com/wejkey/Team/releases/download/1.0-dev1/Team_1.0-dev1.jar" target="_blank" class="btn-download" data-tooltip="Download from GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+  
+  </div>
+  </section>
+
+
+
+
+
 
 
 
@@ -414,6 +617,13 @@ no-mob-message: "&cYou are not looking at mob"
    <hr class="separator">
 
    <!-- End  -->
+
+
+
+
+
+
+
 
 
 
