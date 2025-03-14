@@ -1,4 +1,3 @@
-/* General Styles */
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +19,6 @@ a {
   }
 }
 
- /* Home Section */
  .home {
   height: 100vh;
   background: linear-gradient(135deg, #fce4ec, #f3e5f5);
@@ -58,14 +56,12 @@ a {
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
 }
 
-/* Container */
 .container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* Header */
 header {
   position: fixed;
   top: 0;
@@ -107,7 +103,6 @@ header {
   background: #e91e63;
 }
 
-/* Plugin Details */
 .plugin-details {
   padding: 80px 0;
 }
@@ -130,7 +125,6 @@ header {
   margin-bottom: 10px;
 }
 
-/* Table Styles */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -153,7 +147,12 @@ tr:nth-child(even) td {
   background-color: #f9f9f9;
 }
 
-/* config.yml */
+.plugin-commands td, 
+.plugin-permissions td, 
+.plugin-config td {
+  color: #222;
+}
+
 .plugin-config pre {
   background: #2c3e50;
   color: #ecf0f1;
@@ -166,7 +165,6 @@ tr:nth-child(even) td {
   overflow-x: auto;
 }
 
-/* Back to Top Button */
 #backToTop {
   position: fixed;
   bottom: 40px;
@@ -188,7 +186,6 @@ tr:nth-child(even) td {
   visibility: visible;
 }
 
-/* Footer */
 footer {
   background: #f7f7f7;
   color: #333;
@@ -220,7 +217,6 @@ footer hr {
   margin: 10px 0;
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
   .header-container {
     flex-direction: column;
@@ -239,7 +235,6 @@ footer hr {
   margin-bottom: 20px;
 }
 
-/* Downlaod Buttons */
 .download-buttons {
   display: flex;
   gap: 15px;
@@ -259,7 +254,6 @@ footer hr {
   transform: scale(1.1);
 }
 
-/* Tooltip */
 .btn-download::after {
   content: attr(data-tooltip);
   position: absolute;
@@ -282,7 +276,6 @@ footer hr {
   visibility: visible;
 }
 
-/* HR */
 .separator {
   border: none;
   height: 2px;
@@ -291,4 +284,79 @@ footer hr {
   margin-top: -15px;
   margin-bottom: 15px;
   width: 80%; 
+}
+
+.dark-mode {
+  background: #121212;
+  color: #e0e0e0;
+}
+
+.dark-mode header {
+  background: rgba(18, 18, 18, 0.95);
+}
+
+.dark-mode .logo {
+  color: #bb86fc;
+}
+
+.dark-mode .nav-links li a {
+  color: #e0e0e0;
+}
+
+.dark-mode .nav-links li a:hover {
+  background: #bb86fc;
+  color: #000;
+}
+
+.dark-mode .home {
+  background: linear-gradient(135deg, #1e1e1e, #121212);
+}
+
+.dark-mode .feature-card,
+.dark-mode .plugin-card {
+  background: #1e1e1e;
+  color: #e0e0e0;
+  border: 1px solid #333;
+}
+
+body.dark-mode .faqs {
+  background: #222;
+  color: #ddd;
+}
+
+body.dark-mode .faq-question {
+  color: #ff79c6;
+}
+
+body.dark-mode .faq-answer {
+  color: #bbb;
+}
+
+.dark-mode footer {
+  background: #1e1e1e;
+  color: #888;
+}
+
+.dark-mode .footer-links a {
+  color: #bb86fc;
+}
+
+.toggle-mode {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.3rem;
+  color: #bb86fc;
+  margin-left: 10px;
+}
+
+.toggle-mode:hover {
+  color: #e91e63;
+}
+
+.fa-moon{
+  color: #333 ;
+}
+.fa-moon:hover{
+  color: #e91e63;
 }
