@@ -18,14 +18,12 @@
       font-size: 2rem;
     }
   }
-  /* Container */
   .container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
   }
   
-  /* Heder */
   header {
     position: fixed;
     top: 0;
@@ -67,7 +65,6 @@
     background: #e91e63;
   }
   
-  /* Home */
   .home {
     height: 100vh;
     background: linear-gradient(135deg, #fce4ec, #f3e5f5);
@@ -117,7 +114,6 @@
     background: #d81b60;
   }
   
-  /* Section */
   section h2 {
     text-align: center;
     margin-bottom: 20px;
@@ -125,7 +121,6 @@
     color: #9c27b0;
   }
   
-  /* About */
   .about {
     padding: 80px 0;
     text-align: center;
@@ -146,7 +141,6 @@
     color: #c2185b;
   }
   
-  /* Features */
   .features {
     padding: 80px 0;
   }
@@ -181,7 +175,6 @@
     color: #666;
   }
   
-/* Plugins */
 .plugins {
   padding: 80px 0;
   text-align: center;
@@ -243,8 +236,6 @@
   background: #c2185b;
 }
 
-
-/* Buttons cards */
 .plugin-buttons .btn-small {
   padding: 8px 20px;
   border-radius: 20px;
@@ -253,7 +244,6 @@
   text-align: center;
 }
 
- /* FAq */
  .faqs {
    padding: 80px 0;
    background: #fff;
@@ -295,7 +285,6 @@
    margin-top: 10px;
  }
  
- /* Community */
  .community {
    padding: 80px 0;
    text-align: center;
@@ -306,7 +295,6 @@
    color: #555;
  }
  
-/* Footer */
 footer {
    background: #f7f7f7;
    color: #333;
@@ -358,7 +346,6 @@ footer {
    color: #888;
  }
  
- /* Back Button */
  #backToTop {
    position: fixed;
    bottom: 40px;
@@ -380,7 +367,6 @@ footer {
    visibility: visible;
  }
  
- /* Responsive */
  @media (max-width: 768px) {
    .header-container {
      flex-direction: column;
@@ -395,11 +381,7 @@ footer {
      grid-template-columns: 1fr;
    }
  }
- /* And finally Line number
- 400 */
 
-
-/* Dark Mode */
 .dark-mode {
   background: #121212;
   color: #e0e0e0;
