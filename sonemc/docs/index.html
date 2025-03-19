@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link rel="icon" type="image" href="https://github.com/wejkey/SoneMC/raw/main/images/SoneMC(PNG).png">
+  <link rel="icon" type="image" href="https://github.com/wejkey/SoneMC/raw/main/SoneMC(PNG).png">
 </head>
 <body>
 
@@ -166,16 +166,17 @@ no-mob-message: "&cYou are not looking at mob"
 
   <section id="valentines" class="plugin-details">
     <div class="container">
-      <h2>Valentine - 1.0-dev6</h2>
+      <h2>Valentine - 1.0</h2>
       <p class="small-text">All those hearts in one plugin. No, this plugin wont find girlfriend for you.</p>
       <div class="plugin-features">
         <h3>Features:</h3>
         <ul>
           <li>You can Kiss / Hug someone</li>
           <li>You can see how many kisses and hugs you got</li>
-          <li>84% of messages are editable in config.yml</li>
+          <li>97% of messages are editable in config.yml</li>
           <li>Heart particles around player</li>
-          <li>Data Storing</li>
+          <li>Data Storing (kind of)</li>
+          <li>Can check offline player's stats</li>
         </ul>
       </div>
 
@@ -194,7 +195,7 @@ no-mob-message: "&cYou are not looking at mob"
           <tbody>
             <tr>
               <td>/valentines</td>
-              <td>-</td>
+              <td>/val, /vday</td>
               <td>Displays plugin's commands</td>
               <td>valentine.use</td>
             </tr>
@@ -212,8 +213,8 @@ no-mob-message: "&cYou are not looking at mob"
             </tr>
             <tr>
               <td>/valentinesplayer (player)</td>
-              <td>-</td>
-              <td>View Valentine's stats of a player</td>
+              <td>/valstats, /vstats</td>
+              <td>Displays a player's Valentines stats</td>
               <td>valentine.use</td>
             </tr>
           </tbody>
@@ -233,7 +234,13 @@ no-mob-message: "&cYou are not looking at mob"
           <tbody>
             <tr>
               <td>valentines.use</td>
-              <td>Can use the plugin</td>
+              <td>Allows to use all commands</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>valentines.useall</td>
+              <td>-</td>
             </tr>
           </tbody>
         </table>
@@ -243,29 +250,41 @@ no-mob-message: "&cYou are not looking at mob"
       <div class="plugin-config">
         <h3>config.yml:</h3>
         <pre>
-          # Permissions
-          no-permissions: "&cSadly, you have no permissions"
+          # Prefix and no-permission
+          Prefix: "&f[&cValentines&f] "
+          NoPermissionMessage: "&cYou do not have permission to use this command."
           
-          # Hug Messages
-          Hug: "&f{player} &ahugs you."
-          HugReceived: "&fYou were hugged by &a{player}!"
-          hugged: "&fYou hugged &a{player}"
+          #  Messages
+          Hug: "&f{player} &ahugs you with love ❤"
+          HugReceived: "&fYou were hugged by &a{player} ❤"
+          Hugged: "&fYou hugged &a{player} ❤"
           
-          # Kiss Messages
-          Kiss: "&f{player} &akissed you."
-          KissReceived: "&fYou were kissed by &a{player}!"
-          kissed: "&fYou kissed &a{player}"
+          Kiss: "&f{player} &akissed you with love ❤"
+          KissReceived: "&fYou were kissed by &a{player} ❤"
+          Kissed: "&fYou kissed &a{player} ❤"
           
-          # Chat Features
-          heart-color: "&c"  # Color of heart that replaces "love"
+          # Chat
+          heart-color: "&c"
+          replace-love-with-hearts: true
           
-          # Particle Effect
-          effect: true  # Enable/disable the heart spiral effect
+          # Effects
+          effect:
+            enabled: true
+            particle-density: 1
+            update-rate: 2
+            max-height: 2.0
+            start-height: 0.1
+            radius: 0.7
           
-          # Worlds where the effect is enabled
+          # Worlds
           enabled-worlds:
             - world
-            - lobby          
+            - world_nether
+          
+          # Cooldowns (in seconds)
+          cooldowns:
+            hug: 60
+            kiss: 60         
 </pre>
       </div>
 
@@ -276,7 +295,7 @@ no-mob-message: "&cYou are not looking at mob"
           <a href="https://www.spigotmc.org/resources/valentines.122853/" target="_blank" class="btn-download" data-tooltip="Download from SpigotMC">
             <i class="fas fa-cubes"></i>
           </a>
-          <a href="https://github.com/wejkey/Valentines/releases/download/1.0-dev6/Valentines_1.0-dev6.jar" target="_blank" class="btn-download" data-tooltip="Download from GitHub">
+          <a href="https://github.com/wejkey/Valentines/releases/download/1.0/Valentines_1.0.jar" target="_blank" class="btn-download" data-tooltip="Download from GitHub">
             <i class="fab fa-github"></i>
           </a>
         </div>
