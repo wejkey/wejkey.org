@@ -1,0 +1,30 @@
+/* While white */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e91e63;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c2185b;
+}
+  
+/* While dark */
+body.dark-mode ::-webkit-scrollbar-track {
+  background: #2c2c2c;
+}
+
+body.dark-mode ::-webkit-scrollbar-thumb {
+  background: #e91e63; 
+}  body.dark-mode ::-webkit-scrollbar-thumb:hover {
+  background: #c2185b; 
+}

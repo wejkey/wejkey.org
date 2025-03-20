@@ -1,0 +1,147 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0f0f0f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.color-section {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.color-panel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 15px;
+    gap: 5px;
+}
+.color-code {
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    min-width: 60px;
+    cursor: pointer;
+}
+textarea {
+    width: 80%;
+    height: 100px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background-color: #1a1a1a;
+    color: white;
+}
+.output {
+    margin: 20px auto;
+    padding: 15px;
+    min-height: 60px;
+    border: 1px solid #555;
+    display: inline-block;
+    width: 80%;
+    white-space: pre-wrap;
+    font-size: 24px;
+    background: #222;
+    border-radius: 8px;
+}
+.alignment-buttons {
+    margin-top: 10px;
+}
+.alignment-buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.left-align, .center-align { background: #007bff; color: white; }
+
+/* srcoblar */
+::-webkit-scrollbar {
+    width: 3px; /
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #555; 
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #007bff; 
+}
+
+::-webkit-scrollbar-track {
+    background: #333; 
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+.container h1 {
+    font-size: 2.2rem; 
+}
+.container p {
+    font-size: 1rem; 
+}
+.icons {
+    flex-direction: column; 
+    gap: 10px;
+}
+.icons a {
+    font-size: 1rem; 
+ }
+}
+@media (min-width: 1200px) {
+.container {
+    width: 80%; 
+}
+.container h1 {
+    font-size: 3.6rem; 
+}
+.container p {
+    font-size: 1.5rem; 
+}
+.icons a {
+    font-size: 1.5rem; 
+ }
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    background-color: #333;  
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    min-width: 60px;
+    cursor: pointer;
+    color: white;
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 130%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.2s ease-in-out;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-50%) translateY(-5px);
+}
