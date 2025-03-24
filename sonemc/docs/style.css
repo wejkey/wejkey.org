@@ -435,3 +435,14 @@ body.dark-mode .faq-answer {
     padding: 40px 0;
   }
 }
+
+/* New */
+.plugin-ended {
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+.plugin-ended p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #9b05cc;
+}
