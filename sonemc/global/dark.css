@@ -1,0 +1,84 @@
+.dark-mode {
+  background: #121212;
+  color: #e0e0e0;
+}
+.dark-mode header {
+  background: rgba(18, 18, 18, 0.95);
+}
+.dark-mode .logo {
+  color: #bb86fc;
+}
+.dark-mode .nav-links li a {
+  color: #e0e0e0;
+}
+.dark-mode .nav-links li a:hover {
+  background: #bb86fc;
+  color: #000;
+}
+.dark-mode .home {
+  background: linear-gradient(135deg, #1e1e1e, #121212);
+}
+.dark-mode .feature-card,
+.dark-mode .plugin-card {
+  background: #1e1e1e;
+  color: #e0e0e0;
+  border: 1px solid #333;
+}
+body.dark-mode .faqs {
+  background: #222;
+  color: #ddd;
+}
+body.dark-mode .faq-question {
+  color: #ff79c6;
+}
+body.dark-mode .faq-answer {
+  color: #bbb;
+}
+.dark-mode footer {
+  background: #1e1e1e;
+  color: #888;
+}
+.dark-mode .footer-links a {
+  color: #bb86fc;
+}
+
+.dark-mode table {
+  background-color: #222;
+  color: #ddd;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.dark-mode th {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #444;
+}
+
+.dark-mode td {
+  background-color: #222 !important; 
+  color: #ddd;
+  padding: 10px;
+  border: 1px solid #444;
+}
+
+.dark-mode tbody tr {
+  background-color: #222 !important; 
+}
+
+.dark-mode tbody tr:hover {
+  background-color: #333 !important;
+}
+
+/* Scrollbar */
+body.dark-mode ::-webkit-scrollbar-track {
+    background: #2c2c2c;
+  }
+  
+  body.dark-mode ::-webkit-scrollbar-thumb {
+    background: #e91e63; 
+  }  body.dark-mode ::-webkit-scrollbar-thumb:hover {
+    background: #c2185b; 
+  }
