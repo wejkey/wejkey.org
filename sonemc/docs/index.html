@@ -58,7 +58,7 @@
       <div class="container home-content">
         <h1>Documentation</h1>
         <p>
-          Plugins documentation, help and downloads
+          Plugins documentations, download links & default configuration files.
         </p>
       </div>
     </section>
@@ -89,7 +89,7 @@
 
   <section id="valentines" class="plugin-details">
     <div class="container">
-      <h2>Valentine - 1.1-dev2</h2>
+      <h2>Valentine - 1.1-dev4</h2>
       <p class="plugin-version">
         Developed: <strong>1.20.2</strong> <br>
         Tested and Stable: <strong>1.19, 1.20, 1.20.6, 1.21</strong>
@@ -99,12 +99,12 @@
       <div class="plugin-features">
         <h3>Features:</h3>
         <ul>
-          <li>You can Kiss / Hug someone</li>
-          <li>You can see how many kisses and hugs you got</li>
-          <li>97% of messages are editable in config.yml</li>
+          <li>Can kiss/hug players with customizable cooldown</li>
+          <li>Leaderboard</li>
+          <li>Customizable in "config.yml"</li>
+          <li>Use of permissions</li>
           <li>Heart particles around player</li>
-          <li>Data Storing (kind of)</li>
-          <li>Can check offline player's stats</li>
+          <li>Changes "love" with "❤" with changable color, of course</li>
         </ul>
       </div>
 
@@ -128,21 +128,27 @@
               <td>valentine.use</td>
             </tr>
             <tr>
+              <td>/valentinesplayer (player)</td>
+              <td>/vstats (player)</td>
+              <td>Displays player's stats</td>
+              <td>valentine.use</td>
+            </tr>
+            <tr>
+              <td>/valentinesleaderboard</td>
+              <td>/vlb</td>
+              <td>Displays leaderboard</td>
+              <td>valentine.use</td>
+            </tr>
+            <tr>
               <td>/hug (player)</td>
-              <td>-</td>
-              <td>Send a hug to another player</td>
+              <td>/valstats, /vstats</td>
+              <td>Hugs player</td>
               <td>valentine.use</td>
             </tr>
             <tr>
               <td>/kiss (player)</td>
-              <td>-</td>
-              <td>Send a kiss to another player</td>
-              <td>valentine.use</td>
-            </tr>
-            <tr>
-              <td>/valentinesplayer (player)</td>
               <td>/valstats, /vstats</td>
-              <td>Displays a player's Valentines stats</td>
+              <td>Kisses player</td>
               <td>valentine.use</td>
             </tr>
           </tbody>
@@ -185,16 +191,15 @@
         </div>
         <pre>
           # Prefix and no-permission
-          Prefix: "&c❤&f Valentines &c❤&r "
+          Prefix: "&c❤&f&lValentines&c❤&r "
           NoPermissionMessage: "&cYou do not have permission to use this command."
           
           #  Messages
-          Hug: "&f{player} &ahugs you with love ❤"
-          HugReceived: "&fYou were hugged by &a{player} ❤"
-          Hugged: "&fYou hugged &a{player} ❤"
-          Kiss: "&f{player} &akissed you with love ❤"
-          KissReceived: "&fYou were kissed by &a{player} ❤" 
-          Kissed: "&fYou kissed &a{player} ❤"
+          Hug: "&fYou hugged &d{player} ❤"
+          HugReceived: "&d{player} &fhugged you&d! ❤"
+          
+          Kiss: "&fYou kissed &d{player} ❤"
+          KissReceived: "&d{player} &fkissed you&d! ❤"
           
           # Chat
           heart-color: "&c"
@@ -207,7 +212,7 @@
             update-rate: 2
             max-height: 2.0
             start-height: 0.1
-            radius: 0.7
+            radius: 0.85
           
           # Enabled Worlds
           enabled-worlds:
@@ -228,7 +233,7 @@
           <a href="https://www.spigotmc.org/resources/valentines.122853/" target="_blank" class="btn-download" data-tooltip="Download from SpigotMC">
             <i class="fas fa-cubes"></i>
           </a>
-          <a href="https://github.com/wejkey/Valentines/releases/download/1.1-dev3/Valentines_1.1-dev3.jar" target="_blank" class="btn-download" data-tooltip="Download from GitHub">
+          <a href="https://github.com/wejkey/Valentines/releases/download/1.1-dev4/Valentines_1.1-dev4.jar" target="_blank" class="btn-download" data-tooltip="Download from GitHub">
             <i class="fab fa-github"></i>
           </a>
         </div>
@@ -328,7 +333,7 @@
       </div>
       <hr>
       <div class="footer-copy">
-        <p>&copy; 2025 SoneMC - All rights reserved | Last update: 03.29.2025 - design, performance update</p>
+        <p>&copy; 2025 SoneMC - All rights reserved | Last update: 04.5.2025</p>
       </div>
     </div>
   </footer>
