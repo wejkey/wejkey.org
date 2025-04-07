@@ -127,13 +127,13 @@ header {
 }
 
 .plugin-version strong {
-  color: #fa4d87; /* Vibrant pink for emphasis */
-  font-weight: bold; /* Bolden version numbers for prominence */
-  transition: color 0.3s ease; /* Smooth transition for hover effect */
+  color: #fa4d87; 
+  font-weight: bold; 
+  transition: color 0.3s ease;
 }
 
 .plugin-version strong:hover {
-  color: #e91e63; /* Slightly darker pink on hover for a nice effect */
+  color: #e91e63; 
 }
 
 
