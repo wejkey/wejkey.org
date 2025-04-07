@@ -81,7 +81,7 @@
 
   <section id="valentines" class="plugin-details">
     <div class="container">
-      <h2>Valentine - 1.1-dev4</h2>
+      <h2>Valentine - 1.1</h2>
       <p class="plugin-version">
         Developed: <strong>1.20.2</strong> <br>
         Tested: <strong>1.19, 1.20, 1.20.6, 1.21</strong>
@@ -91,12 +91,12 @@
       <div class="plugin-features">
         <h3>Features:</h3>
         <ul>
-          <li>Can kiss/hug players with customizable cooldown</li>
+          <li>You can kiss/hug players with customizable cooldown</li>
           <li>Leaderboard</li>
           <li>Customizable in "config.yml"</li>
           <li>Use of permissions</li>
           <li>Heart particles around player</li>
-          <li>Changes "love" with "❤" with changable color, of course</li>
+          <li>Changes custom words with custom symbol and color (in chat)</li>
         </ul>
       </div>
 
@@ -186,16 +186,23 @@
           Prefix: "&c❤&f&lValentines&c❤&r "
           NoPermissionMessage: "&cYou do not have permission to use this command."
           
-          #  Messages
+          # Messages
           Hug: "&fYou hugged &d{player} ❤"
           HugReceived: "&d{player} &fhugged you&d! ❤"
           
           Kiss: "&fYou kissed &d{player} ❤"
           KissReceived: "&d{player} &fkissed you&d! ❤"
           
-          # Chat
-          heart-color: "&c"
-          replace-love-with-hearts: true
+          cooldown-message: "&cYou can only {command} once every &d{time}&c seconds!"
+          
+          # Chat Replacement Settings
+          symbol-change: true
+          symbol-color: "&c"
+          symbol: "♥"
+          words:
+           - "love"
+            - "valentines"
+            - "heart"
           
           # Effects
           effect:
@@ -208,7 +215,7 @@
           
           # Enabled Worlds
           enabled-worlds:
-            - world
+           - world
             - world_nether
           
           # Cooldowns (in seconds)
@@ -225,7 +232,7 @@
           <a href="https://www.spigotmc.org/resources/valentines.122853/" target="_blank" class="btn-download" data-tooltip="Download from SpigotMC">
             <i class="fas fa-cubes"></i>
           </a>
-          <a href="https://github.com/wejkey/Valentines/releases/download/1.1-dev4/Valentines_1.1-dev4.jar" target="_blank" class="btn-download" data-tooltip="Download from GitHub">
+          <a href="https://github.com/wejkey/Valentines/releases/download/1.1/Valentines_1.1.jar" target="_blank" class="btn-download" data-tooltip="Download from GitHub">
             <i class="fab fa-github"></i>
           </a>
         </div>
@@ -289,7 +296,7 @@
       </div>
       <hr>
       <div class="footer-copy">
-        <p>&copy; 2025 SoneMC - All rights reserved | Last update: 04.5.2025</p>
+        <p>&copy; 2025 SoneMC - All rights reserved | Last update: 04.07.2025</p>
       </div>
     </div>
   </footer>
