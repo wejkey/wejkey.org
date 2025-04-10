@@ -13,7 +13,7 @@
     <meta name="author" content="SoneMC, Wejkey">
   
     <!-- Discord & others -->
-    <meta property="og:description" content="Simple and cool Minecraft plugins for the newest versions.">
+    <meta property="og:description" content="Free to use Minecraft plugins focused on Fun and Moderation. Primarly developed for versions 1.20 and above.">
     <meta property="og:image" content="https://github.com/wejkey/SoneMC/raw/main/SoneMC(PNG).png">
     <meta property="og:title" content="SoneMC - Minecraft Plugin Development">
     <meta property="og:url" content="https://wejkey.github.io/sonemc">
@@ -47,6 +47,9 @@
       <nav>
         <ul class="nav-links">
           <li><a href="#valentines">Valentines</a></li>
+          <li><a href="#devmotd">devmotd</a></li>
+          <li><a href="#dcbook">DisenchantedBook</a></li>
+
         </ul>
       </nav>
     </div>
@@ -271,7 +274,7 @@
 
   <section id="devmotd" class="plugin-details">
     <div class="container">
-      <h2>devMOTD - 1.0</h2>
+      <h2>devMOTD - 1.0-exp</h2>
       <p class="plugin-version">
         Developed: <strong>1.20.2</strong> <br>
         Tested: <strong>1.18.2, 1.19, 1.20, 1.20.6, 1.21</strong>
@@ -310,7 +313,7 @@
           <a href="https://www.spigotmc.org/resources/devmotd.123866/" target="_blank" class="btn-download" data-tooltip="Download from SpigotMC">
             <i class="fas fa-cubes"></i>
           </a>
-          <a href="https://github.com/wejkey/devMOTD/releases/download/1.0/devmotd_1.0.jar" target="_blank" class="btn-download" data-tooltip="Download from GitHub">
+          <a href="https://github.com/wejkey/devMOTD/releases/download/1.0-exp/devmotd_1.0-exp.jar" target="_blank" class="btn-download" data-tooltip="Download from GitHub">
             <i class="fab fa-github"></i>
           </a>
         </div>
@@ -329,6 +332,109 @@
     
 
 
+   <section id="dcbook" class="plugin-details">
+    <div class="container">
+      <h2>DisenchantedBook - 1.0-exp</h2>
+      <p class="plugin-version">
+        Developed: <strong>1.20.2</strong> <br>
+        Tested: <strong>-</strong>
+      </p>
+
+      <p class="small-text">You can disenchant your enchanted item by holding it and using command. You will be given a book of your item's disenchanted enchants.</p>
+      <div class="plugin-features">
+        <h3>Features:</h3>
+        <ul>
+          <li>Disenchant your enchanted item and get a book with the enchants</li>
+        </ul>
+      </div>
+
+      <!-- Commands Table -->
+      <div class="plugin-commands">
+        <h3>Commands:</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Command</th>
+              <th>Alias</th>
+              <th>Description</th>
+              <th>Permission</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>/disenchant</td>
+              <td>-</td>
+              <td>Disenchants item</td>
+              <td>disenchantedbook.use</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Permissions Table -->
+      <div class="plugin-permissions">
+        <h3>Permissions:</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Permission</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>disenchantedbook.use</td>
+              <td>Allows to use all commands</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- config.yml -->
+      <div class="plugin-config">
+        <h3>config.yml:</h3>
+        <div class="copy-container">
+          <button class="copy-btn" onclick="copyToClipboard()" aria-label="Copy to clipboard">
+            <i class="fas fa-copy"></i>
+          </button>
+          <div class="tooltip">Copied!</div>
+        </div>
+        <pre>
+          messages:
+          prefix: "&a•&fDisenchantedBook&a•&r "
+          no-permission: "&cYou don't have permission to use this command!"
+          no-item: "&cYou must hold an item in your main hand!"
+          no-enchantments: "&cThis item doesn't have any enchantments!"
+          success: "&aSuccessfully disenchanted your item! Check your inventory for the enchanted book."
+          inventory-full: "&cYou don't have enough inventory space! Disenchanting cancelled."
+</pre>
+      </div>
+
+      <!-- Downloads -->
+      <div class="plugin-downloads">
+        <h3>Downloads:</h3>
+        <div class="download-buttons">
+          <a href="https://www.spigotmc.org/resources/disenchantedbook.123948/" target="_blank" class="btn-download" data-tooltip="Download from SpigotMC">
+            <i class="fas fa-cubes"></i>
+          </a>
+          <a href="https://github.com/wejkey/DisenchantedBook/releases/download/1.0-exp/DisenchantedBook_1.0-exp.jar" target="_blank" class="btn-download" data-tooltip="Download from GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+  
+  </div>
+  </section>
+
+
+
+
+   <!-- End  -->
+
+   <hr class="separator">
+
+   <!-- End  -->
+
+
 
 
 
@@ -336,10 +442,18 @@
     <div class="container">
       <h2>What will be next?</h2>
       <p class="small-text">Or... will be?</p>
-  
   </div>
   </section>
 
+
+
+
+
+   <!-- End  -->
+
+   <hr class="separator">
+
+   <!-- End  -->
 
 
   <!-- Footer -->
@@ -358,7 +472,7 @@
       </div>
       <hr>
       <div class="footer-copy">
-        <p>&copy; 2025 SoneMC - All rights reserved | Last update: 04.08.2025</p>
+        <p>&copy; 2025 SoneMC - All rights reserved | Last update: 04.10.2025</p>
       </div>
     </div>
   </footer>
