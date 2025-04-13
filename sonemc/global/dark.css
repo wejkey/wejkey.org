@@ -118,8 +118,8 @@ body.dark-mode ::-webkit-scrollbar-track {
 }
 
 .dark-mode .info-card.red-warning {
-  background-color: #f44336ae; 
-  border: 1px solid #f44336ae;
+  background-color: #de4237ae; 
+  border: 1px solid #e03e33ae;
 }
 
 .dark-mode .info-card.red-warning h2 {
