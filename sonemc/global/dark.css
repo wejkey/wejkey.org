@@ -82,3 +82,55 @@ body.dark-mode ::-webkit-scrollbar-track {
   }  body.dark-mode ::-webkit-scrollbar-thumb:hover {
     background: #c2185b; 
   }
+
+
+
+.dark-mode .info-card {
+  background-color: #1e1e1e; 
+  color: #e0e0e0;
+  border: 1px solid #333;
+}
+
+.dark-mode .info-card.info {
+  background-color: #30399aae; 
+  border: 1px solid #1976d2ae;
+}
+
+.dark-mode .info-card.info h2 {
+  color: #bbdefb;
+}
+
+.dark-mode .info-card.info p {
+  color: #bbb;
+}
+
+.dark-mode .info-card.warning {
+  background-color: #a79833ae;
+  border: 1px solid #ecac0bae;
+}
+
+.dark-mode .info-card.warning h2 {
+  color: #fbc02d;
+}
+
+.dark-mode .info-card.warning p {
+  color: #bbb;
+}
+
+.dark-mode .info-card.red-warning {
+  background-color: #f44336ae; 
+  border: 1px solid #f44336ae;
+}
+
+.dark-mode .info-card.red-warning h2 {
+  color: #ff8a80; 
+}
+
+.dark-mode .info-card.red-warning p {
+  color: #bbb;
+}
+
+.dark-mode .info-card:hover {
+  opacity: 0.95;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
