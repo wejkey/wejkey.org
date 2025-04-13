@@ -84,22 +84,22 @@
 
   <section id="valentines" class="plugin-details">
     <div class="container">
-      <h2>Valentine - 1.1</h2>
+      <h2>Valentine - 1.2</h2>
       <p class="plugin-version">
         Developed: <strong>1.20.2</strong> <br>
         Tested: <strong>1.19, 1.20, 1.20.6, 1.21</strong>
       </p>
 
-      <p class="small-text">All those hearts in one plugin. No, this plugin wont find girlfriend for you.</p>
+      <p class="small-text">All those hearts in that one day. Hugs & kisses, marriages etc..</p>
       <div class="plugin-features">
         <h3>Features:</h3>
         <ul>
-          <li>You can kiss/hug players with customizable cooldown</li>
-          <li>Leaderboard</li>
-          <li>Customizable in "config.yml"</li>
-          <li>Use of permissions</li>
-          <li>Heart particles around player</li>
           <li>Changes custom words with custom symbol and color (in chat)</li>
+          <li>You can send a Kiss/Hug to a player (with cooldown)</li>
+          <li>Heart particles around player</li>
+          <li>Hugs/Kissses leaderboard</li>
+          <li>Marriage system</li>
+          <li>Permissions</li>
         </ul>
       </div>
 
@@ -146,6 +146,19 @@
               <td>Kisses player</td>
               <td>valentine.use</td>
             </tr>
+            <tr>
+              <td>/marry (player)</td>
+              <td>-</td>
+              <td>Marry another player</td>
+              <td>valentine.marry</td>
+            </tr>
+            <tr>
+              <td>/divorce</td>
+              <td>-</td>
+              <td>Divorce your partner</td>
+              <td>valentine.divorce</td>
+            </tr>
+
           </tbody>
         </table>
       </div>
@@ -163,14 +176,21 @@
           <tbody>
             <tr>
               <td>valentines.use</td>
-              <td>Allows to use all commands</td>
+              <td>Allows the player to use basic Valentines commands</td>
             </tr>
-          </tbody>
-          <tbody>
             <tr>
               <td>valentines.effect</td>
-              <td>You will have hearts around you</td>
+              <td>Allows the player to see particle effects around them</td>
             </tr>
+            <tr>
+              <td>valentines.marry</td>
+              <td>Allows the player to marry other players</td>
+            </tr>
+            <tr>
+              <td>valentines.divorce</td>
+              <td>Allows the player to divorce their partner</td>
+            </tr>
+
           </tbody>
         </table>
       </div>
@@ -195,6 +215,31 @@
           
           Kiss: '&fYou kissed &d{player} ❤'
           KissReceived: '&d{player} &fkissed you&d! ❤'
+          
+          # Marriage Messages
+          Marriage:
+            proposal-sent: '&fMarriage proposal sent to &d{player}'
+            proposal-received: '&d{player} &fwants to marry you. Type &d/marry confirm &ffor
+              confirmation.'
+            
+            already-married: '&cYou are already married!'
+            target-already-married: '&c{player} is already married!'
+            
+            no-pending-proposals: '&cYou have no pending marriage proposals!'
+            proposer-offline: '&cThe player who proposed is no longer online!'
+            
+            accept-sender: '&d{player} &faccepted your marriage. You''re together&d! ♥'
+            accept-receiver: You married &d{player} &fYou're together&d! ♥
+            decline-sender: '&c{player} doesn''t want to be with you :('
+            decline-receiver: '&cYou don''t want to be with {player}'
+            
+            divorce-initiator: '&cYou have divorced {player}!'
+            divorce-target: '&c{player} has divorced you!'
+            divorce-confirm: '&fAre you sure you want to break up with &d{player}&f? Type &d/divorce
+              &fagain to confirm.'
+            
+            not-married: '&cYou are not married!'
+            not-married-to: '&cYou are not married to {player}!'
           
           cooldown-message: '&cYou can only {command} once every &d{time}&c seconds!'
           
@@ -225,6 +270,14 @@
           cooldowns:
             hug: 60
             kiss: 60
+          players:
+            2e479397-f913-33c6-a05d-d4c666c211aa:
+              hugs: 0
+              kisses: 0
+            31015d5d-de54-347f-990e-06842a9e9a4f:
+              hugs: 0
+              kisses: 0
+          
 </pre>
       </div>
 
@@ -235,7 +288,7 @@
           <a href="https://www.spigotmc.org/resources/valentines.122853/" target="_blank" class="btn-download" data-tooltip="Download from SpigotMC">
             <i class="fas fa-cubes"></i>
           </a>
-          <a href="https://github.com/wejkey/Valentines/releases/download/1.1/Valentines_1.1.jar" target="_blank" class="btn-download" data-tooltip="Download from GitHub">
+          <a href="https://github.com/wejkey/Valentines/releases/download/1.2/Valentines_1.2.jar" target="_blank" class="btn-download" data-tooltip="Download from GitHub">
             <i class="fab fa-github"></i>
           </a>
         </div>
@@ -472,7 +525,7 @@
       </div>
       <hr>
       <div class="footer-copy">
-        <p>&copy; 2025 SoneMC - All rights reserved | Last update: April 10, 2025</p>
+        <p>&copy; 2025 SoneMC - All rights reserved | Last update: April 13, 2025</p>
       </div>
     </div>
   </footer>
