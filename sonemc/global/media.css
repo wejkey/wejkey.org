@@ -1,51 +1,51 @@
 @media (max-width: 480px) {
-  .logo { font-size: 1.3rem; }
+  .logo { font-size: 1.5rem; }  
   .nav-links { flex-direction: column; align-items: center; }
   .nav-links li { margin-bottom: 10px; }
-  .home h1 { font-size: 2rem; text-align: center; }
-  .home p { font-size: 1rem; margin-bottom: 15px; }
-  .btn { padding: 10px 20px; font-size: 0.9rem; }
+  .home h1 { font-size: 2.2rem; text-align: center; }  
+  .home p { font-size: 1.1rem; margin-bottom: 15px; }  
+  .btn { padding: 12px 25px; font-size: 1rem; }  
   .features-grid, .plugin-grid { grid-template-columns: 1fr; }
-  .footer-info p { font-size: 1rem; }
+  .footer-info p { font-size: 1.1rem; }  
   .social-links { flex-direction: column; align-items: center; }
-
-  .info-card { max-width: 90%; padding: 8px 15px; }
+  .info-card { max-width: 90%; padding: 10px 18px; }
+  body { padding-top: env(safe-area-inset-top); }
 }
 
 @media (max-width: 768px) {
   .nav-links { flex-direction: column; align-items: center; margin-top: 20px; }
-  .home h1 { font-size: 2.5rem; }
-  .home p { font-size: 1.2rem; }
-  .btn { padding: 12px 30px; font-size: 1rem; }
+  .home h1 { font-size: 2.8rem; }  
+  .home p { font-size: 1.3rem; }  
+  .btn { padding: 14px 32px; font-size: 1.1rem; } 
   .features-grid, .plugin-grid { grid-template-columns: 1fr 1fr; gap: 20px; }
   .social-links { flex-direction: row; justify-content: center; gap: 10px; }
-
-  .info-card { max-width: 85%; padding: 10px 18px; }
+  .info-card { max-width: 85%; padding: 12px 20px; }
+  .btn { padding: 16px 35px; font-size: 1.2rem; }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .home { padding: 40px; }
-
+  .home h1 { font-size: 2.5rem; }
+  .home p { font-size: 1.2rem; }
+  .btn { padding: 12px 28px; font-size: 1.05rem; } 
+  .features-grid, .plugin-grid { grid-template-columns: 1fr 1fr; gap: 20px; }
   .info-card { max-width: 80%; padding: 12px 20px; }
 }
 
 @media (min-width: 1025px) {
   .home h1 { font-size: 3rem; }
-
   .info-card { max-width: 81%; padding: 14px 22px; }
 }
 
 @media (max-width: 812px) and (orientation: landscape) {
   .home h1 { font-size: 2rem; }
-  .nav-links { flex-direction: row; justify-content: center; }
-
+  .nav-links { flex-direction: row; justify-content: space-around; }
   .info-card { max-width: 85%; padding: 12px 20px; }
 }
 
 @media (hover: none) and (pointer: coarse) {
   .btn { padding: 14px 30px; }
   .nav-links li a { font-size: 1.2rem; }
-
   .info-card { max-width: 90%; padding: 10px 18px; }
 }
 
@@ -53,3 +53,5 @@
   body { background: white; color: black; }
   .nav, .footer { display: none; }
 }
+
+img { max-width: 100%; height: auto; }
