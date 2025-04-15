@@ -84,53 +84,89 @@ body.dark-mode ::-webkit-scrollbar-track {
   }
 
 
+/* Cards */
 
-.dark-mode .info-card {
-  background-color: #1e1e1e; 
-  color: #e0e0e0;
-  border: 1px solid #333;
+
+/* Cards */
+
+
+/* Cards */
+
+
+.dark-mode .info-card.exp {
+  background-color: #2a3d5f;
+  border: 1px solid #42a5f5;
 }
-
-.dark-mode .info-card.info {
-  background-color: #30399aae; 
-  border: 1px solid #1976d2ae;
+.dark-mode .info-card.exp h2 {
+  color: #90caf9;
 }
-
-.dark-mode .info-card.info h2 {
-  color: #bbdefb;
-}
-
-.dark-mode .info-card.info p {
+.dark-mode .info-card.exp p {
   color: #bbb;
 }
 
-.dark-mode .info-card.warning {
-  background-color: #a79833ae;
-  border: 1px solid #ecac0bae;
+.dark-mode .info-card.dev {
+  background-color: #5e421a;
+  border: 1px solid #ffb74d;
 }
-
-.dark-mode .info-card.warning h2 {
-  color: #fbc02d;
+.dark-mode .info-card.dev h2 {
+  color: #ffcc80;
 }
-
-.dark-mode .info-card.warning p {
+.dark-mode .info-card.dev p {
   color: #bbb;
 }
 
-.dark-mode .info-card.red-warning {
-  background-color: #de4237ae; 
-  border: 1px solid #e03e33ae;
+.dark-mode .info-card.note {
+  background-color: #23443f;
+  border: 1px solid #26a69a;
 }
-
-.dark-mode .info-card.red-warning h2 {
-  color: #ff8a80; 
+.dark-mode .info-card.note h2 {
+  color: #80cbc4;
 }
-
-.dark-mode .info-card.red-warning p {
+.dark-mode .info-card.note p {
   color: #bbb;
 }
 
 .dark-mode .info-card:hover {
+  opacity: 0.95;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+
+
+.dark-mode .plugin-card.exp {
+  background-color: #2a3d5f;
+  border: 1px solid #42a5f5;
+}
+.dark-mode .plugin-card.exp h2 {
+  color: #90caf9;
+}
+.dark-mode .plugin-card.exp p {
+  color: #bbb;
+}
+
+.dark-mode .plugin-card.dev {
+  background-color: #5e421a;
+  border: 1px solid #ffb74d;
+}
+.dark-mode .plugin-card.dev h2 {
+  color: #ffcc80;
+}
+.dark-mode .plugin-card.dev p {
+  color: #bbb;
+}
+
+.dark-mode .plugin-card.note {
+  background-color: #23443f;
+  border: 1px solid #26a69a;
+}
+.dark-mode .plugin-card.note h2 {
+  color: #80cbc4;
+}
+.dark-mode .plugin-card.note p {
+  color: #bbb;
+}
+
+.dark-mode .plugin-card:hover {
   opacity: 0.95;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
