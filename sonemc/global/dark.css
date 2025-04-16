@@ -72,18 +72,6 @@ body.dark-mode .faq-answer {
   background-color: #333 !important;
 }
 
-/* Scrollbar */
-body.dark-mode ::-webkit-scrollbar-track {
-    background: #2c2c2c;
-  }
-  
-  body.dark-mode ::-webkit-scrollbar-thumb {
-    background: #e91e63; 
-  }  body.dark-mode ::-webkit-scrollbar-thumb:hover {
-    background: #c2185b; 
-  }
-
-
 /* Cards */
 
 
