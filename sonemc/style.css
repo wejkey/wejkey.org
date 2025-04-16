@@ -271,28 +271,18 @@ section h2 {
   width: 100%;
   margin-top: auto;
 }
-.plugin-info {
-  margin-bottom: -35px;
-  margin-top: 5px;
-}
-.plugin-info p {
-  font-size: 0.76rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  color: #9b05cc;
-}
 .plugin-card h3,
 .plugin-card p {
   margin-bottom: 15px;
 }
 
 .faqs {
-padding: 60px 0;
-background: #fff;
-text-align: left;
+ padding: 60px 0;
+ background: #fff;
+ text-align: left;
 }
 .faqs .container {
-max-width: 800px;
+ max-width: 800px;
 }
 .faq-item {
   border-bottom: 1px solid #eee;
@@ -431,4 +421,44 @@ hr {
 }
 .fa-moon:hover{
   color: #e91e63;
+}
+
+.download {
+  position: relative;
+  display: inline-block;
+}
+
+.download .tooltip {
+  visibility: hidden;
+  opacity: 0;
+  background-color: #9c27b0;
+  color: #fff;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: opacity 0.3s ease;
+  white-space: nowrap;
+  font-size: 0.75rem;
+  pointer-events: none;
+}
+
+.download .tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #9c27b0 transparent transparent transparent;
+}
+
+.download:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
 }
