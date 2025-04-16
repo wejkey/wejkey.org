@@ -3,22 +3,18 @@
   --scroll-thumb: #e91e63;
   --scroll-thumb-hover: #c2185b;
 }
-
 ::-webkit-scrollbar {
   width: 6px;
   height: 12px;
 }
-
 ::-webkit-scrollbar-track {
   background: var(--scroll-track);
   border-radius: 10px;
 }
-
 ::-webkit-scrollbar-thumb {
   background: var(--scroll-thumb);
   border-radius: 10px;
 }
-
 ::-webkit-scrollbar-thumb:hover {
   background: var(--scroll-thumb-hover);
 }
