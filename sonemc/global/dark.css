@@ -158,3 +158,12 @@ body.dark-mode .faq-answer {
   opacity: 0.95;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
+
+/* hr */
+body.dark-mode hr {
+  border-top: 1px solid #121212;
+}
+
+.dark-mode .faq-item{
+  border-bottom: 1px solid #121212;
+}
