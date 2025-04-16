@@ -41,14 +41,12 @@ body.dark-mode .faq-answer {
 .dark-mode .footer-links a {
   color: #bb86fc;
 }
-
 .dark-mode table {
   background-color: #222;
   color: #ddd;
   border-collapse: collapse;
   width: 100%;
 }
-
 .dark-mode th {
   background-color: #333;
   color: #fff;
@@ -56,30 +54,20 @@ body.dark-mode .faq-answer {
   text-align: left;
   border: 1px solid #444;
 }
-
 .dark-mode td {
   background-color: #222 !important; 
   color: #ddd;
   padding: 10px;
   border: 1px solid #444;
 }
-
 .dark-mode tbody tr {
   background-color: #222 !important; 
 }
-
 .dark-mode tbody tr:hover {
   background-color: #333 !important;
 }
 
 /* Cards */
-
-
-/* Cards */
-
-
-/* Cards */
-
 
 .dark-mode .info-card.exp {
   background-color: #2a3d5f;
@@ -91,7 +79,6 @@ body.dark-mode .faq-answer {
 .dark-mode .info-card.exp p {
   color: #bbb;
 }
-
 .dark-mode .info-card.dev {
   background-color: #5e421a;
   border: 1px solid #ffb74d;
@@ -102,7 +89,6 @@ body.dark-mode .faq-answer {
 .dark-mode .info-card.dev p {
   color: #bbb;
 }
-
 .dark-mode .info-card.note {
   background-color: #23443f;
   border: 1px solid #26a69a;
@@ -113,14 +99,10 @@ body.dark-mode .faq-answer {
 .dark-mode .info-card.note p {
   color: #bbb;
 }
-
 .dark-mode .info-card:hover {
   opacity: 0.95;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
-
-
-
 .dark-mode .plugin-card.exp {
   background-color: #2a3d5f;
   border: 1px solid #42a5f5;
@@ -131,7 +113,6 @@ body.dark-mode .faq-answer {
 .dark-mode .plugin-card.exp p {
   color: #bbb;
 }
-
 .dark-mode .plugin-card.dev {
   background-color: #5e421a;
   border: 1px solid #ffb74d;
@@ -142,7 +123,6 @@ body.dark-mode .faq-answer {
 .dark-mode .plugin-card.dev p {
   color: #bbb;
 }
-
 .dark-mode .plugin-card.note {
   background-color: #23443f;
   border: 1px solid #26a69a;
@@ -153,17 +133,16 @@ body.dark-mode .faq-answer {
 .dark-mode .plugin-card.note p {
   color: #bbb;
 }
-
 .dark-mode .plugin-card:hover {
   opacity: 0.95;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
 
 /* hr */
+
 body.dark-mode hr {
   border-top: 1px solid #121212;
 }
-
 .dark-mode .faq-item{
   border-bottom: 1px solid #121212;
 }
