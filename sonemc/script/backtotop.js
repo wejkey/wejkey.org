@@ -10,7 +10,7 @@ window.onscroll = function() {
 document.getElementById('backToTop').onclick = function() {
   let startPosition = window.scrollY;
   let startTime = performance.now();
-  let duration = 600;
+  let duration = 800;
 
   function scrollStep(timestamp) {
     let elapsed = timestamp - startTime;
