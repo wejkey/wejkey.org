@@ -13,7 +13,6 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
  .home {
   height: 100vh;
   background: linear-gradient(135deg, #fce4ec, #f3e5f5);
@@ -50,13 +49,11 @@ a {
   margin-bottom: 30px;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
 }
-
 .container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
 }
-
 header {
   position: fixed;
   top: 0;
@@ -97,7 +94,6 @@ header {
   color: #fff;
   background: #e91e63;
 }
-
 .plugin-details {
   padding: 80px 0;
 }
@@ -125,18 +121,14 @@ header {
   margin-top: -25px;
   line-height: 1.4;
 }
-
 .plugin-version strong {
   color: #fa4d87; 
   font-weight: bold; 
   transition: color 0.3s ease;
 }
-
 .plugin-version strong:hover {
   color: #e91e63; 
 }
-
-
 .plugin-ended {
   margin-top: -30px;
   margin-bottom: 30px;
@@ -146,7 +138,6 @@ header {
   font-weight: 500;
   color: #9b05cc;
 }
-
 table {
   width: 100%;
   border-collapse: collapse;
@@ -168,13 +159,11 @@ td {
 tr:nth-child(even) td {
   background-color: #f9f9f9;
 }
-
 .plugin-commands td, 
 .plugin-permissions td, 
 .plugin-config td {
   color: #222;
 }
-
 .plugin-config pre {
   background: #2c3e50;
   color: #ecf0f1;
@@ -188,7 +177,6 @@ tr:nth-child(even) td {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   transition: background 0.3s ease, transform 0.3s ease;
 }
-
 #backToTop {
   position: fixed;
   bottom: 40px;
@@ -209,70 +197,58 @@ tr:nth-child(even) td {
   opacity: 1;
   visibility: visible;
 }
-
 footer {
   background: #f7f7f7;
   color: #333;
   padding: 20px 0; 
   text-align: center;
 }
-
 .footer-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
 .footer-info h3 {
   font-size: 1.5rem; 
   margin-bottom: 5px;
 }
-
 .footer-info p {
   font-size: 0.9rem;
   margin: 0;
 }
-
 .footer-links {
   margin: 10px 0; 
 }
-
 .footer-links a {
   margin: 0 10px; 
   font-size: 1.3rem; 
   color: #333;
   transition: color 0.3s ease;
 }
-
 .footer-links a:hover {
   color: #e91e63; 
 }
-
 hr {
   width: 60%; 
   border: 0;
   border-top: 1px solid #ddd;
 }
-
 .footer-copy {
   font-size: 0.8rem;
   color: #888;
 }
-
 .small-text {
   font-size: 1rem;
   color: #777;
   margin-top: 10px;
   margin-bottom: 20px;
 }
-
 .download-buttons {
   display: flex;
   gap: 15px;
   justify-content: flex-start;
 }
-
 .btn-download {
   color: #e91e63; 
   font-size: 1.8rem;
@@ -280,12 +256,10 @@ hr {
   position: relative;
   transition: color 0.3s ease, transform 0.2s ease;
 }
-
 .btn-download:hover {
   color: #c2185b; 
   transform: scale(1.1);
 }
-
 .btn-download::after {
   content: attr(data-tooltip);
   position: absolute;
@@ -302,12 +276,10 @@ hr {
   visibility: hidden;
   transition: opacity 0.2s ease, visibility 0.2s ease;
 }
-
 .btn-download:hover::after {
   opacity: 1;
   visibility: visible;
 }
-
 .separator {
   border: none;
   height: 2px;
@@ -317,7 +289,6 @@ hr {
   margin-bottom: 15px;
   width: 80%; 
 }
-
 .toggle-mode {
   background: transparent;
   border: none;
@@ -326,22 +297,18 @@ hr {
   color: #bb86fc;
   margin-left: 10px;
 }
-
 .toggle-mode:hover {
   color: #e91e63;
 }
-
 .fa-moon{
   color: #333 ;
 }
 .fa-moon:hover{
   color: #e91e63;
 }
-
 .copy-container {
   position: relative;
 }
-
 .copy-btn {
   position: absolute;
   top: 10px;
@@ -354,11 +321,9 @@ hr {
   color: #9c27b0;
   transition: color 0.3s ease;
 }
-
 .copy-btn:hover {
   color: #c2185b;
 }
-
 .tooltip {
   visibility: hidden;
   position: absolute;
@@ -373,13 +338,11 @@ hr {
   opacity: 0;
   transition: opacity 0.2s ease, visibility 0.2s ease;
 }
-
 .copy-btn:focus + .tooltip,
 .copy-btn:active + .tooltip {
   visibility: visible;
   opacity: 1;
 }
-
 .copy-btn:active {
   transform: scale(0.95);
 }
