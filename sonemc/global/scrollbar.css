@@ -1,18 +1,24 @@
+:root {
+  --scroll-track: #f1f1f1;
+  --scroll-thumb: #e91e63;
+  --scroll-thumb-hover: #c2185b;
+}
+
 ::-webkit-scrollbar {
-    width: 6px;
-    height: 12px;
+  width: 6px;
+  height: 12px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: var(--scroll-track);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #e91e63;
+  background: var(--scroll-thumb);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #c2185b;
+  background: var(--scroll-thumb-hover);
 }
