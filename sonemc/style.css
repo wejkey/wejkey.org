@@ -170,7 +170,7 @@ section h2 {
 }
 
 .about {
-  padding: 80px 0;
+  padding: 60px 0;
   text-align: center;
 }
 .about p {
@@ -190,7 +190,7 @@ section h2 {
 }
 
 .features {
-  padding: 80px 0;
+  padding: 60px 0;
 }
 .features-grid {
   display: grid;
@@ -224,7 +224,7 @@ section h2 {
 }
 
 .plugins {
-  padding: 80px 0;
+  padding: 60px 0;
   text-align: center;
 }
 .plugins p {
@@ -244,6 +244,10 @@ section h2 {
   border-radius: 10px;
   text-align: center;
   transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between;
+  text-align: center;
 }
 .plugin-card:hover {
   transform: translateY(-5px);
@@ -254,14 +258,18 @@ section h2 {
   color: #9c27b0;
 }
 .plugin-card p {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   font-size: 0.95rem;
   color: #555;
 }
 .plugin-buttons {
   display: flex;
-  gap: 6px;
+  gap: 10px;
   justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin-top: auto;
 }
 .plugin-info {
   margin-bottom: -35px;
@@ -273,8 +281,13 @@ section h2 {
   font-weight: 600;
   color: #9b05cc;
 }
+.plugin-card h3,
+.plugin-card p {
+  margin-bottom: 15px;
+}
+
 .faqs {
-padding: 80px 0;
+padding: 60px 0;
 background: #fff;
 text-align: left;
 }
@@ -322,7 +335,7 @@ max-width: 800px;
 }
 
 .community {
-  padding: 80px 0;
+  padding: 60px 0;
   text-align: center;
 }
 .community p {
