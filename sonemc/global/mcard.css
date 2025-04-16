@@ -1,3 +1,6 @@
+/* .INFO */
+
+
 .info-mcard {
   max-width: 81%;
   margin: 10px auto; 
@@ -10,7 +13,7 @@
   margin-bottom: 30px;
 }
 
-/* Expermimetnal */
+/* Experimental */
 
 .info-mcard.exp {
   background-color: #e3f2fd;
@@ -23,7 +26,8 @@
   color: #555;
 }
 
-/* Under developmetn */
+/* Under dev */
+
 .info-mcard.dev {
   background-color: #fff3e0;
   border: 1px solid #ffb74d;
@@ -35,7 +39,8 @@
   color: #555;
 }
 
-/* Global - Notice/info/note */
+/* General info */
+
 .info-mcard.note {
   background-color: #e0f2f1;
   border: 1px solid #26a69a;
@@ -47,7 +52,7 @@
   color: #555;
 }
 
-
+/* .PLUGIN */
 
 
 .plugin-mcard {
@@ -63,7 +68,7 @@
   margin-bottom: -4%;
 }
 
-/* Expermimetnal */
+/* Experimental */
 
 .plugin-mcard.exp {
   background-color: #e3f2fd;
@@ -76,7 +81,8 @@
   color: #555;
 }
 
-/* Under developmetn */
+/* Under dev */
+
 .plugin-mcard.dev {
   background-color: #fff3e0;
   border: 1px solid #ffb74d;
@@ -88,7 +94,8 @@
   color: #555;
 }
 
-/* Global - Notice/info/note */
+/* General info */
+
 .plugin-mcard.note {
   background-color: #e0f2f1;
   border: 1px solid #26a69a;
