@@ -100,6 +100,7 @@
           <li>You can send a Kiss/Hug to a player (with cooldown)</li>
           <li>Heart particles around player</li>
           <li>Hugs/Kisses leaderboard</li>
+          <li>Multilanguage support</li>
           <li>Marriage system</li>
           <li>Permissions</li>
         </ul>
@@ -161,6 +162,12 @@
               <td>valentine.divorce</td>
             </tr>
             <tr>
+              <td>/couples</td>
+              <td>-</td>
+              <td>Display all married couples</td>
+              <td>valentines.use</td>
+            </tr>
+            <tr>
               <td>/valtest</td>
               <td>-</td>
               <td>Plugin testing command</td>
@@ -199,6 +206,10 @@
               <td>Allows the player to divorce their partner</td>
             </tr>
             <tr>
+              <td>valentines.admin</td>
+              <td>Allows access to administrative commands</td>
+            </tr>
+            <tr>
               <td>CONSOLE</td>
               <td>Command works only in console</td>
             </tr>
@@ -217,20 +228,17 @@
           <div class="tooltip">Copied!</div>
         </div>
         <pre>
-          # Prefix
+          lang: "EN"
+
+          # Messages
           Prefix: "&c❤&f&lValentines&c❤&r "
-          
-          # No permission(s)
           NoPermissionMessage: "&cYou do not have permission to use this command."
           
-          # Classic
           Hug: "&fYou hugged &d{player} ❤"
           HugReceived: "&d{player} &fhugged you&d! ❤"
-          
           Kiss: "&fYou kissed &d{player} ❤"
           KissReceived: "&d{player} &fkissed you&d! ❤"
           
-          # Marriage
           Marriage:
             proposal-sent: "&fMarriage proposal sent to &d{player}"
             proposal-received: "&d{player} &fwants to marry you. Type &d/marry confirm &ffor confirmation."
@@ -253,11 +261,23 @@
             not-married: "&cYou are not married!"
             not-married-to: "&cYou are not married to {player}!"
           
+            # Marriage prefix settings
+            prefix:
+              enabled: true
+              position: "after"  # symbol "after" or "before" player's name
+              symbol: "❤"
+              color: "&c"
+              tooltip: "&dMarried to &f{partner}"
+              spacing: " "  # Space between name and symbol
+          
+          reload-success: "&aConfiguration and languages reloaded successfully!"
+          reload-error: "&cError reloading configuration: {error}"
+          
           cooldown-message: "&cYou can only {command} once every &d{time}&c seconds!"
           
           # Chat Replacement
-          symbol-change: true # changes "words" with "symbol"
-          symbol-color: "&c" # changes "symbol" color
+          symbol-change: true
+          symbol-color: "&c"
           symbol: "♥"
           words:
             - "love"
@@ -273,12 +293,11 @@
             start-height: 0.1
             radius: 0.85
           
-          # Enabled Worlds
           enabled-worlds:
             - world
             - world_nether
           
-          # Cooldowns (in seconds)
+          # Cooldowns (seconds)
           cooldowns:
             hug: 60
             kiss: 60
@@ -295,7 +314,7 @@
           <a href="https://www.spigotmc.org/resources/valentines.122853/" target="_blank" class="btn-download" data-tooltip="Download from SpigotMC">
             <i class="fas fa-cubes"></i>
           </a>
-          <a href="https://github.com/wejkey/Valentines/releases/download/1.3/Valentines_1.3.jar" target="_blank" class="btn-download" data-tooltip="Download from GitHub">
+          <a href="https://github.com/wejkey/Valentines/releases/download/1.4-dev1/Valentines_1.4-dev1.jar" target="_blank" class="btn-download" data-tooltip="Download from GitHub">
             <i class="fa-brands fa-github"></i>
           </a>
         </div>
