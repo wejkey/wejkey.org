@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Countdown</title>
+  <title>wejkey</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" href="style.css">
@@ -11,32 +10,16 @@
 </head>
 <body>
   <div class="container">
-    <h1 id="countdown"><h1>
+    <h1>Wejkey</h1>
+    <p>There was something. But now, its just this.</p>
+
+    <div class="icons">
+      <a href="https://discord.com/invite/DxpqN5WXRt" target="_blank"><i class="fab fa-discord"></i> Discord</a>
+      <a href="https://github.com/wejkey" target="_blank"><i class="fab fa-github"></i> Wejkey GitHub</a>
+      <a href="https://modrinth.com/user/SoneMC" target="_blank"><i class="fa-solid fa-wrench"></i> Modrinth</a>
+      <a href="https://wejkey.github.io/mclr" target="_blank"><i class="fas fa-cubes"></i> MOTD Editor</a>
+      <a href="https://wejkey.github.io/countdown" target="_blank"><i class="fas fa-clock"></i> Countdown</a>
+    </div>
   </div>
-  <script>
-    const countdownElement = document.getElementById("countdown");
-const targetDate = new Date("2026-05-22T00:00:00").getTime();
-
-function updateCountdown() {
-  const now = new Date().getTime();
-  const timeLeft = targetDate - now;
-
-  if (timeLeft <= 0) {
-    countdownElement.innerHTML = "What?";
-    return;
-  }
-
-  const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
-  const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
-  const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
-
-  countdownElement.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
-}
-
-setInterval(updateCountdown, 1000);
-updateCountdown();
-
-  </script>
 </body>
 </html>
