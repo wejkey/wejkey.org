@@ -15,14 +15,14 @@
   </div>
   <script>
     const countdownElement = document.getElementById("countdown");
-const targetDate = new Date("2025-05-22T00:00:00").getTime();
+const targetDate = new Date("2026-05-22T00:00:00").getTime();
 
 function updateCountdown() {
   const now = new Date().getTime();
   const timeLeft = targetDate - now;
 
   if (timeLeft <= 0) {
-    countdownElement.innerHTML = "Now I'm a year older again. You won't find anything else here...";
+    countdownElement.innerHTML = "What?";
     return;
   }
 
