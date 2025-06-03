@@ -4,18 +4,23 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>wejkey - aiblackjack</title>
+    <title data-default>Vite App</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
         
         body {
             font-family: 'Poppins', sans-serif;
-            background: #101010;
-            color: #545454;
+            background: linear-gradient(-45deg, #f5f7fa, #e4e8ed, #f0f4f8, #e8ecf2);
             background-size: 400% 400%;
             animation: gradient 15s ease infinite;
             min-height: 100vh;
+        }
+        
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
         }
         
         .card {
@@ -94,6 +99,7 @@
 </head>
 <body class="py-8 px-4">
     <div class="max-w-5xl mx-auto">
+        <!-- Header -->
         <header class="flex justify-between items-center mb-8">
             <h1 class="text-3xl font-bold bg-gradient-to-r from-indigo-500 to-purple-600 bg-clip-text text-transparent">Blackjack</h1>
             <div class="flex items-center space-x-4">
@@ -104,52 +110,60 @@
             </div>
         </header>
         
+        <!-- Betting Area -->
         <div id="betting-section" class="mb-8 bg-white bg-opacity-50 backdrop-blur-sm p-6 rounded-xl shadow-md transition-all duration-300">
             <h2 class="text-xl font-semibold text-gray-700 mb-4">Place your bet</h2>
             <div class="flex justify-center space-x-4 mb-6">
-                <div class="chip cursor-pointer  from-amber-200 to-amber-300 w-12 h-12 rounded-full flex items-center justify-center font-bold" data-amount="5">5</div>
-                <div class="chip cursor-pointer  from-amber-300 to-amber-400 w-12 h-12 rounded-full flex items-center justify-center font-bold" data-amount="10">10</div>
-                <div class="chip cursor-pointer  from-amber-400 to-amber-500 w-12 h-12 rounded-full flex items-center justify-center font-bold" data-amount="25">25</div>
-                <div class="chip cursor-pointer  from-amber-500 to-amber-600 w-12 h-12 rounded-full flex items-center justify-center font-bold" data-amount="50">50</div>
+                <div class="chip cursor-pointer bg-gradient-to-br from-amber-200 to-amber-300 w-12 h-12 rounded-full flex items-center justify-center font-bold" data-amount="5">5</div>
+                <div class="chip cursor-pointer bg-gradient-to-br from-amber-300 to-amber-400 w-12 h-12 rounded-full flex items-center justify-center font-bold" data-amount="10">10</div>
+                <div class="chip cursor-pointer bg-gradient-to-br from-amber-400 to-amber-500 w-12 h-12 rounded-full flex items-center justify-center font-bold" data-amount="25">25</div>
+                <div class="chip cursor-pointer bg-gradient-to-br from-amber-500 to-amber-600 w-12 h-12 rounded-full flex items-center justify-center font-bold" data-amount="50">50</div>
             </div>
             <div class="flex justify-center">
-                <button id="deal-btn" class="px-6 py-2 from-green-400 to-green-500 text-white font-medium rounded-full hover:from-green-500 hover:to-green-600 transition-all">
+                <button id="deal-btn" class="px-6 py-2 bg-gradient-to-r from-green-400 to-green-500 text-white font-medium rounded-full hover:from-green-500 hover:to-green-600 transition-all">
                     Deal Cards
                 </button>
             </div>
         </div>
         
+        <!-- Game Area -->
         <div id="game-section" class="hidden">
+            <!-- Dealer Section -->
             <div class="bg-white bg-opacity-70 backdrop-blur-sm p-6 rounded-xl shadow-md mb-8">
                 <h2 class="text-xl font-semibold text-gray-700 mb-4">Dealer <span id="dealer-score" class="ml-2 text-indigo-600 font-medium"></span></h2>
                 <div id="dealer-cards" class="flex justify-center flex-wrap gap-4"></div>
             </div>
             
+            <!-- Player Section -->
             <div class="bg-white bg-opacity-70 backdrop-blur-sm p-6 rounded-xl shadow-md mb-8">
                 <h2 class="text-xl font-semibold text-gray-700 mb-4">Player <span id="player-score" class="ml-2 text-indigo-600 font-medium">0</span></h2>
                 <div id="player-cards" class="flex justify-center flex-wrap gap-4 mb-6"></div>
                 
+                <!-- Player Actions -->
                 <div id="player-actions" class="flex justify-center space-x-4">
-                    <button id="hit-btn" class="px-6 py-2 from-blue-400 to-blue-500 text-white font-medium rounded-full hover:from-blue-500 hover:to-blue-600 transition-all">
+                    <button id="hit-btn" class="px-6 py-2 bg-gradient-to-r from-blue-400 to-blue-500 text-white font-medium rounded-full hover:from-blue-500 hover:to-blue-600 transition-all">
                         Hit
                     </button>
-                    <button id="stand-btn" class="px-6 py-2 from-purple-400 to-purple-500 text-white font-medium rounded-full hover:from-purple-500 hover:to-purple-600 transition-all">
+                    <button id="stand-btn" class="px-6 py-2 bg-gradient-to-r from-purple-400 to-purple-500 text-white font-medium rounded-full hover:from-purple-500 hover:to-purple-600 transition-all">
                         Stand
                     </button>
-                    <button id="fold-btn" class="px-6 py-2 from-red-400 to-red-500 text-white font-medium rounded-full hover:from-red-500 hover:to-red-600 transition-all">
+                    <button id="fold-btn" class="px-6 py-2 bg-gradient-to-r from-red-400 to-red-500 text-white font-medium rounded-full hover:from-red-500 hover:to-red-600 transition-all">
                         Fold
                     </button>
                 </div>
             </div>
             
+            <!-- Current Bet -->
             <div class="text-center mb-6">
                 <p class="text-gray-600">Current bet: <span id="current-bet" class="font-semibold text-indigo-600">0</span> ✧</p>
             </div>
             
+            <!-- Result Message -->
             <div id="result-message" class="text-center text-xl font-bold mb-6"></div>
             
+            <!-- New Round Button -->
             <div class="flex justify-center">
-                <button id="new-round-btn" class="hidden px-6 py-2 from-indigo-400 to-indigo-500 text-white font-medium rounded-full hover:from-indigo-500 hover:to-indigo-600 transition-all">
+                <button id="new-round-btn" class="hidden px-6 py-2 bg-gradient-to-r from-indigo-400 to-indigo-500 text-white font-medium rounded-full hover:from-indigo-500 hover:to-indigo-600 transition-all">
                     New Round
                 </button>
             </div>
