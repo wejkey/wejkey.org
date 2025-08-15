@@ -1,78 +1,54 @@
 body {
-  font-family: 'Roboto', sans-serif;
   background-color: #101010;
   color: #545454;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.container {
-  text-align: center;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px;
-}
-
-.container h1 { 
-  font-size: 3rem;
+  padding: 0;
   margin: 0;
-  display: flex;
-  align-items: center;
+  height: 100vh;
+  justify-content: center;
 }
-
-.container p {
+h1 {
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+}
+p {
+  max-width: 500px;
+  text-align: center;
+  margin-bottom: 30px;
   font-size: 1.3rem;
-  margin: 5px 0;
 }
-
-.icons {
-  margin-top: 10px;
+.links {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
-
-.icons a {
+.link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #1f1a21;
+  padding: 12px 18px;
+  border-radius: 8px;
   text-decoration: none;
-  color: #464646;
-  font-size: 1.2rem;
+  color: #5e5d5d;
+  transition: background-color 0.2s;
 }
-
-.icons a:hover {
-  color: #00aaff;
+.link:hover {
+  background-color: #3d3d5c;
 }
-
-@media (max-width: 600px) {
-  .container h1 {
-    font-size: 2.2rem; 
-  }
-  .container p {
-    font-size: 1rem; 
-  }
-  .icons {
-    flex-direction: column; 
-    gap: 10px;
-  }
-  .icons a {
-    font-size: 1rem; 
-  }
+.link i {
+  font-size: 1.4rem;
 }
-@media (min-width: 1200px) {
-  .container {
-    width: 80%; 
+@media (max-width: 500px) {
+  h1 {
+    font-size: 2rem;
   }
-  .container h1 {
-    font-size: 3.6rem; 
-  }
-  .container p {
-    font-size: 1.5rem; 
-  }
-  .icons a {
-    font-size: 1.5rem; 
+  .link {
+    width: 100%;
+    justify-content: center;
   }
 }
