@@ -101,21 +101,4 @@ document.addEventListener('DOMContentLoaded', function() {
         element.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
         fadeInObserver.observe(element);
     });
-
-    const heroTitle = document.querySelector('.hero-text h1');
-    if (heroTitle) {
-        const originalText = heroTitle.innerHTML;
-        heroTitle.innerHTML = '';
-        
-        let i = 0;
-        const typeWriter = () => {
-            if (i < originalText.length) {
-                heroTitle.innerHTML += originalText.charAt(i);
-                i++;
-                setTimeout(typeWriter, 100);
-            }
-        };
-        
-        setTimeout(typeWriter, 1000);
-    }
 });
