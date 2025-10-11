@@ -1,29 +1,119 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wejkey</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="icon" href="https://avatars.githubusercontent.com/u/184445277?v=4">
-  <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Wejkey</title>
+    <meta name="description" content="What can I say. You need to see it.">
+    <link rel="canonical" href="https://wejkey.org">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Wejkey">
+    <meta property="og:description" content="Lorem ipsum dolor sit amet?">
+    <meta property="og:url" content="https://wejkey.org">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/184445277?v=4">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Wejkey">
+    <meta name="twitter:description" content="You can see what I enjoy. Just visit this amazing siet.">
+    <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/184445277?v=4">
+
+    <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/184445277?v=4">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+  <body>
+    <canvas id="particles"></canvas>
 
-  <h1>Wejkey</h1>
-  <p>Hey, I'm portfolio, this is my Wejkey.</p>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">Wejkey</div>
+        <ul class="nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
 
-  <div class="links">
-    <a class="link" href="https://github.com/wejkey" target="_blank">
-      <i class="fab fa-github"></i> GitHub
-    </a>
-    <a class="link" href="https://github.com/wejkey/InternationalMC/blob/main/README.md" target="_blank">
-      <i class="fas fa-wrench"></i> InternationalMC
-    </a>
-    <a class="link" href="https://discord.gg/HG5wfDhZ49" target="_blank">
-      <i class="fa-brands fa-discord"></i> Join
-    </a>
-  </div>
+    <section id="hero">
+      <div class="hero-content">
+        <h1 class="glitch" data-text="Wejkey">Wejkey</h1>
+        <p class="subtitle">Someone making something somewhere</p>
+        <div class="hero-icons">
+          <a href="#contact"><i class="fab fa-discord"></i></a>
+          <a href="#contact"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </section>
 
-</body>
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <p>Im 17 years old Slovakian, always working on something online. In this amazing "portfolio" you can see what I created or what Im planning to do. Btw thanks for visiting </p>
+          <div class="skills">
+            <span class="skill-tag"><i class="fab fa-html5"></i> HTML</span>
+            <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS</span>
+            <span class="skill-tag"><i class="fab fa-js"></i> JS</span>
+            <span class="skill-tag"><i class="fab fa-java"></i> Java</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project-tabs">
+          <button class="tab-btn active" data-tab="active">Active</button>
+          <button class="tab-btn" data-tab="planning">Planning</button>
+          <button class="tab-btn" data-tab="archive">Archive</button>
+        </div>
+
+        <div class="projects-grid" id="projects-container">
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <i class="fab fa-discord"></i>
+            <h3>Discord</h3>
+            <p>wejkey</p>
+          </div>
+          <div class="contact-card">
+            <i class="fas fa-users"></i>
+            <h3>Discord Server</h3>
+            <p>Join our community</p>
+            <a href="https://wejkey.org/discord" class="btn-join">Join Server</a>
+          </div>
+          <div class="contact-card">
+            <i class="fas fa-envelope"></i>
+            <h3>Email</h3>
+            <p>contact@wejkey.org</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Wejkey. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="main.js"></script>
+  </body>
 </html>
