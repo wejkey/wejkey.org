@@ -8,6 +8,13 @@ const projects = {
       description: 'This amazing website.',
       githubUrl: 'https://github.com/wejkey/Website',
       projectUrl: 'https://wejkey.org'
+    },
+   {
+      icon: 'fa-solid fa-icons',
+      title: 'CNEP',
+      dateCreated: 'October 11, 2025',
+      description: '(Community Networks Emoji Packs) Emojis packs of Discord servers im part of or I like them',
+      githubUrl: 'https://github.com/wejkey/CNEP/releases'
     }
   ],
   planning: [],
