@@ -437,45 +437,6 @@ section {
   border-color: transparent;
 }
 
-.contact-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.contact-card {
-  background: var(--card-bg);
-  border: 1px solid var(--border-color);
-  border-radius: 15px;
-  padding: 2rem;
-  text-align: center;
-  transition: all 0.3s ease;
-}
-
-.contact-card:hover {
-  border-color: var(--primary-color);
-  transform: translateY(-10px);
-  box-shadow: 0 10px 30px rgba(0, 217, 255, 0.3);
-}
-
-.contact-card i {
-  font-size: 3rem;
-  color: var(--primary-color);
-  margin-bottom: 1rem;
-}
-
-.contact-card h3 {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.contact-card p {
-  color: var(--text-secondary);
-  margin-bottom: 1rem;
-}
-
 footer {
   background: var(--card-bg);
   border-top: 1px solid var(--border-color);
