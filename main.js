@@ -17,7 +17,16 @@ const projects = {
       githubUrl: 'https://github.com/wejkey/CNEP/releases'
     }
   ],
-  planning: [],
+  planning: [
+    {
+      icon: 'fas fa-project-diagram',
+      title: 'projects.wejkey.org',
+      dateCreated: 'October 24, 2025',
+      description: 'Half-mine or fully-mine projects/mini-projects I make when im bored or I just want to use them.',
+      githubUrl: 'https://github.com/wejkey/projects.wejkey.org',
+      projectUrl: 'https://projects.wejkey.org'
+    },
+  ],
   archive: [
     {
       icon: 'fa-solid fa-earth-americas',
