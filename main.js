@@ -26,7 +26,6 @@ const projects = {
       dateArchived: 'October 3, 2025',
       description: 'Creating plugins for Minecraft servers. Project was created mainly because of "Valentines" plugin.',
       githubUrl: 'https://github.com/wejkey/InternationalMC/blob/main/README.md',
-      projectUrl: 'https://internationalmc.wejkey.org'
     },
     {
       icon: 'fa-solid fa-wrench',
@@ -39,8 +38,6 @@ const projects = {
       dateCreated: 'October 24, 2025',
       dateArchived: 'October 27, 2025',
       description: 'Half-mine or fully-mine projects/mini-projects I make when im bored or I just want to use them.',
-      githubUrl: 'https://github.com/wejkey/projects.wejkey.org',
-      projectUrl: 'https://projects.wejkey.org'
     }
   ]
 };
