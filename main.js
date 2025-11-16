@@ -26,13 +26,6 @@ const projects = {
       description: 'Place where you find various Minecraft tools for server owners.'
     },
     {
-      icon: 'fas fa-project-diagram',
-      title: 'projects.wejkey.org',
-      dateCreated: 'October 24, 2025',
-      dateArchived: 'October 27, 2025',
-      description: 'Half-mine or fully-mine projects/mini-projects I make when im bored or I just want to use them.',
-    },
-    {
       icon: 'fa-solid fa-icons',
       title: 'CNEP',
       dateCreated: 'October 11, 2025',
