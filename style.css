@@ -263,12 +263,6 @@ section {
   gap: 0.5rem;
 }
 
-.skill-tag:hover {
-  border-color: var(--primary-color);
-  transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(0, 217, 255, 0.3);
-}
-
 .project-tabs {
   display: flex;
   justify-content: center;
@@ -397,7 +391,7 @@ section {
   transform: translateY(0);
 }
 
-.btn, .btn-join {
+.btn {
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
   text-decoration: none;
@@ -431,34 +425,11 @@ section {
   color: var(--bg-color);
 }
 
-.btn-join {
-  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-  color: var(--bg-color);
-  border-color: transparent;
-}
-
 footer {
   background: var(--card-bg);
   border-top: 1px solid var(--border-color);
   padding: 2rem;
   text-align: center;
-}
-
-.footer-links {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  margin-top: 1rem;
-}
-
-.footer-links a {
-  color: var(--text-secondary);
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.footer-links a:hover {
-  color: var(--primary-color);
 }
 
 @media (max-width: 768px) {
