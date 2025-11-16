@@ -8,13 +8,6 @@ const projects = {
       description: 'This amazing website.',
       githubUrl: 'https://github.com/wejkey/Website',
       projectUrl: 'https://wejkey.org'
-    },
-   {
-      icon: 'fa-solid fa-icons',
-      title: 'CNEP',
-      dateCreated: 'October 11, 2025',
-      description: '(Community Networks Emoji Packs) Emojis packs of Discord servers im part of or I like them',
-      githubUrl: 'https://github.com/wejkey/CNEP/releases'
     }
   ],
   planning: [],
@@ -38,10 +31,17 @@ const projects = {
       dateCreated: 'October 24, 2025',
       dateArchived: 'October 27, 2025',
       description: 'Half-mine or fully-mine projects/mini-projects I make when im bored or I just want to use them.',
+    },
+    {
+      icon: 'fa-solid fa-icons',
+      title: 'CNEP',
+      dateCreated: 'October 11, 2025',
+      dateArchived: 'November 16, 2025',
+      description: '(Community Networks Emoji Packs) Emojis packs of Discord servers im part of or I like them',
+      githubUrl: 'https://github.com/wejkey/CNEP/releases'
     }
   ]
 };
-
 
 function initParticles() {
   const canvas = document.getElementById('particles');
