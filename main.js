@@ -2,7 +2,7 @@ const projects = {
   active: [
     {
       icon: 'fas fa-code',
-      title: 'Portfolio Website',
+      title: 'This Website',
       dateCreated: 'October 25, 2024',
       dateArchived: null,
       description: 'This amazing website.',
