@@ -9,7 +9,7 @@ const projects = {
       githubUrl: 'https://github.com/wejkey/Website',
       projectUrl: 'https://wejkey.org'
     },
-        {
+   {
       icon: 'fa-solid fa-wrench',
       title: 'Modrinth',
       dateCreated: null,
