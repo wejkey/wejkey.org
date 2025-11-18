@@ -8,6 +8,14 @@ const projects = {
       description: 'This amazing website.',
       githubUrl: 'https://github.com/wejkey/Website',
       projectUrl: 'https://wejkey.org'
+    },
+        {
+      icon: 'fa-solid fa-wrench',
+      title: 'Modrinth',
+      dateCreated: null,
+      dateArchived: null,
+      description: 'Unarchiving this project will take some time. Just wait.',
+      projectUrl: 'https://modrinth.com/user/wejkey'
     }
   ],
   planning: [],
