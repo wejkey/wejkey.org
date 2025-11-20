@@ -1,9 +1,13 @@
 # Changelog 
 
+--------------------------
+
 ## [3.1.2] - November 20, 2025
 
 ### Changed
 - Contact icon "redirect" > "copy"
+
+--------------------------
 
 ## [3.1.1] - November 20, 2025
 
@@ -13,6 +17,8 @@
 ### Changed
 - "Plugins" Archived > Active
 
+--------------------------
+
 ## [3.1] - November 19, 2025
 
 ### Added
@@ -20,22 +26,3 @@
 
 ### Changed
 - Main theme to "Winter"
-
-
-
---------------------------
-
-Changelog scheme example:
-
---------------------------
-
-## [SemVer] - MM DD, YYYY
-
-### Added
-- 
-
-### Changed
--
-
-### Removed
--
