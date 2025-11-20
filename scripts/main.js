@@ -11,8 +11,8 @@ const projects = {
     },
    {
       icon: 'fa-solid fa-wrench',
-      title: 'Modrinth',
-      dateCreated: null,
+      title: 'MC Plugins',
+      dateCreated: 'November 20, 2025',
       dateArchived: null,
       description: 'Unarchiving this project will take some time. Just wait.',
       projectUrl: 'https://modrinth.com/user/wejkey'
