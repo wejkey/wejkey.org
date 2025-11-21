@@ -11,10 +11,10 @@ const projects = {
     },
    {
       icon: 'fa-solid fa-wrench',
-      title: 'MC Plugins',
+      title: 'Plugins',
       dateCreated: 'November 20, 2025',
       dateArchived: null,
-      description: 'Unarchiving this project will take some time. Just wait.',
+      description: 'Developing Minecraft plugin(s).',
       projectUrl: 'https://modrinth.com/user/wejkey'
     }
   ],
