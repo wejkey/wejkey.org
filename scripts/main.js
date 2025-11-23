@@ -16,6 +16,14 @@ const projects = {
       dateArchived: null,
       description: 'Developing Minecraft plugin(s).',
       projectUrl: 'https://modrinth.com/user/wejkey'
+    },
+    {
+      icon: 'fa-solid fa-database',
+      title: 'Database',
+      dateCreated: 'November 23, 2025',
+      dateArchived: null,
+      description: 'Database where I add Minecraft plugins I make.',
+      projectUrl: 'https://database.wejkey.org'
     }
   ],
   planning: [],
