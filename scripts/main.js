@@ -9,17 +9,9 @@ const projects = {
       githubUrl: 'https://github.com/wejkey/Website',
       projectUrl: 'https://wejkey.org'
     },
-   {
-      icon: 'fa-solid fa-wrench',
-      title: 'Plugins',
-      dateCreated: 'November 20, 2025',
-      dateArchived: null,
-      description: 'Developing Minecraft plugin(s).',
-      projectUrl: 'https://modrinth.com/user/wejkey'
-    },
     {
       icon: 'fa-solid fa-database',
-      title: 'Database',
+      title: 'Database & Plugins',
       dateCreated: 'November 23, 2025',
       dateArchived: null,
       description: 'Database where I add Minecraft plugins I make.',
