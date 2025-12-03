@@ -8,6 +8,10 @@
 
 ### Changed
 - Merged Database & Plugins into one project on homepage
+- Database to general base for my projects, not just Minecraft plugins
+
+### Removed
+- Project "Plugins"
 
 --------------------------
 

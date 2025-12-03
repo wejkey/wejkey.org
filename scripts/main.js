@@ -11,10 +11,10 @@ const projects = {
     },
     {
       icon: 'fa-solid fa-database',
-      title: 'Database & Plugins',
+      title: 'Database & Development',
       dateCreated: 'November 23, 2025',
       dateArchived: null,
-      description: 'Database where I add Minecraft plugins I make.',
+      description: 'Database where I add projects I make.',
       projectUrl: 'https://database.wejkey.org'
     }
   ],
