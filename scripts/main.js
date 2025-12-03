@@ -11,7 +11,7 @@ const projects = {
     },
     {
       icon: 'fa-solid fa-database',
-      title: 'Database & Development',
+      title: 'Database',
       dateCreated: 'November 23, 2025',
       dateArchived: null,
       description: 'Database where I add projects I make.',
