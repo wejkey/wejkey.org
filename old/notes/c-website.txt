@@ -1,0 +1,14 @@
+# Wejkey Website License
+
+All content on this website, including text, images, code and design is originally created by Wejkey.
+
+You can:
+- View, browse and interact with this site
+- Use this website everywhere but with credit
+
+You cannot:
+- Copy, redistribute, or sell any content or code
+- Use this website's assets
+- Claim any part of this website as your own
+
+No warranties are provided. Author won't be liable for damages of any kind.

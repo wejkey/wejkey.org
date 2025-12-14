@@ -1,13 +1,4 @@
 # Changelog 
-
-## [v2026+1.0.0-beta] - December 14, 2025
-
-### Added
-- "Future" section
-
-### Changed
-- General "wejkey.org" redesign
-
 --------------------------
 
 ## [3.1.5] - December 3, 2025
