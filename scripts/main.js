@@ -53,7 +53,7 @@ const timeline = [
   {
     date: 'December 2025',
     title: 'Welcome, 2026!',
-    description: '2026-ready redesign with winter mode'
+    description: '2026-ready redesign with winter mode. Want to see <a class="fornownoclass" href="/old">older version</a>?'
   },
   {
     date: 'Nobember 2025',

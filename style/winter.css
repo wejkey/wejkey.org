@@ -71,7 +71,6 @@ body::-webkit-scrollbar-thumb,
   background: var(--primary);
 }
 
-/* style the scrollbar corner (when both horizontal and vertical scrollbars exist) */
 ::-webkit-scrollbar-corner {
   background: transparent;
 }
@@ -669,7 +668,11 @@ footer {
   z-index: 2;
 }
 
-/* Preloader */
+.fornownoclass {
+  color: var(--primary);
+  text-decoration: none;
+}
+
 .preloader {
   position: fixed;
   inset: 0;
