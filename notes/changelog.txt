@@ -1,5 +1,12 @@
 # Changelog 
 
+## [v2026+1.0.0-beta.1] - December 15, 2025
+
+### Added
+- More screen res. (only some devices)
+
+--------------------------
+
 ## [v2026+1.0.0-beta] - December 14, 2025
 
 ### Added
