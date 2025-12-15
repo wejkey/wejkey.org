@@ -22,6 +22,7 @@ html {
   scroll-behavior: smooth;
   scrollbar-width: thin;
   scrollbar-color: var(--primary) rgba(6, 13, 26, 0.85);
+  overflow-x: hidden;
 }
 
 body {
@@ -33,6 +34,7 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
   position: relative;
+  padding-top: 72px;
 }
 
 * {
@@ -122,6 +124,8 @@ body:not(.loading) > :not(.preloader) {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 1rem;
+  position: relative;
 }
 
 .logo {
@@ -139,6 +143,7 @@ body:not(.loading) > :not(.preloader) {
   display: flex;
   list-style: none;
   gap: 1.5rem;
+  align-items: center;
 }
 
 .nav-menu a {
@@ -170,6 +175,45 @@ body:not(.loading) > :not(.preloader) {
   width: 100%;
 }
 
+.nav-toggle {
+  display: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: var(--text);
+  border-radius: 999px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.nav-toggle.active span:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+
+.nav-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.nav-toggle.active span:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+body.nav-open {
+  overflow: hidden;
+}
+
 section {
   padding: 6rem 2rem;
   position: relative;
@@ -179,6 +223,8 @@ section {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  width: min(1200px, 100%);
+  padding: 0 1.25rem;
 }
 
 .hero {
@@ -291,6 +337,9 @@ section {
   backdrop-filter: blur(10px);
   position: relative;
   overflow: hidden;
+  width: min(520px, 100%);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-card::before {
@@ -760,22 +809,109 @@ footer {
 }
 
 @media (max-width: 768px) {
+  body {
+    padding-top: 68px;
+  }
+
   .nav-container {
-    padding: 1rem 1.25rem;
+    padding: 0.85rem 1.25rem;
+  }
+
+  .nav-toggle {
+    display: inline-flex;
   }
 
   .nav-menu {
-    gap: 1rem;
-    font-size: 0.95rem;
-    flex-wrap: wrap;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 1rem 1.25rem 1.25rem;
+    background: rgba(6, 13, 26, 0.95);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(18px);
   }
 
-  .hero-actions {
+  .nav-menu.open {
+    display: flex;
+  }
+
+  .nav-menu li {
     width: 100%;
+  }
+
+  .nav-menu a {
+    width: 100%;
+    padding: 0.85rem 0.9rem;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.02);
+  }
+
+  .nav-menu a::after {
+    display: none;
+  }
+
+  section {
+    padding: 4.5rem 1.25rem;
+  }
+
+  .hero {
+    min-height: auto;
+    padding-top: 1rem;
+  }
+
+  .hero-grid {
+    text-align: center;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
+
+  .hero-actions,
+  .hero-icons {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hero-card {
+    order: 3;
   }
 
   .section-header {
     flex-direction: column;
     align-items: flex-start;
+  }
+}
+
+@media (max-width: 540px) {
+  .nav-menu {
+    padding: 0.75rem 1rem 1.1rem;
+  }
+
+  .hero-copy h1 {
+    font-size: clamp(2.6rem, 9vw, 3.3rem);
+  }
+
+  .hero {
+    padding-top: 0.25rem;
+  }
+
+  section {
+    padding: 3.6rem 1rem;
+  }
+
+  .hero-actions,
+  .hero-icons {
+    gap: 0.75rem;
+  }
+
+  .project-card,
+  .idea-card,
+  .timeline-item {
+    padding: 1.1rem;
   }
 }

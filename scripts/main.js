@@ -7,7 +7,7 @@ const projects = {
       description: 'Everything you see here, is part of this project.',
       githubUrl: 'https://github.com/wejkey/Website',
       projectUrl: 'https://wejkey.org',
-      tags: ['v2026+1.0.0-beta']
+      tags: ['v2026+1.0.0-beta.1']
     },
     {
       icon: 'fa-solid fa-database',
@@ -318,6 +318,36 @@ function initCopyButtons() {
   });
 }
 
+function initMobileNav() {
+  const toggle = document.querySelector('.nav-toggle');
+  const navMenu = document.querySelector('.nav-menu');
+  if (!toggle || !navMenu) return;
+
+  const closeMenu = () => {
+    navMenu.classList.remove('open');
+    toggle.classList.remove('active');
+    toggle.setAttribute('aria-expanded', 'false');
+    document.body.classList.remove('nav-open');
+  };
+
+  toggle.addEventListener('click', () => {
+    const isOpen = navMenu.classList.toggle('open');
+    toggle.classList.toggle('active', isOpen);
+    toggle.setAttribute('aria-expanded', isOpen);
+    document.body.classList.toggle('nav-open', isOpen);
+  });
+
+  navMenu.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', closeMenu);
+  });
+
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 768) {
+      closeMenu();
+    }
+  });
+}
+
 function observeReveals() {
   const observer = new IntersectionObserver((entries, obs) => {
     entries.forEach(entry => {
@@ -375,6 +405,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initPreloader();
   initCountdown();
   initParticles();
+  initMobileNav();
   initProjectTabs();
   initSmoothScroll();
   initCopyButtons();
