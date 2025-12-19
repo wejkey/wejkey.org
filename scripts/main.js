@@ -7,7 +7,7 @@ const projects = {
       description: 'Everything you see here, is part of this project.',
       githubUrl: 'https://github.com/wejkey/Website',
       projectUrl: 'https://wejkey.org',
-      tags: ['v2026+1.0.0-beta.1']
+      tags: ['v2026+1.0.0-beta.2']
     },
     {
       icon: 'fa-solid fa-database',
@@ -15,7 +15,7 @@ const projects = {
       dateCreated: 'November 2025',
       description: 'Documentation for projects that "are under active development".',
       projectUrl: 'https://database.wejkey.org',
-      tags: ['v2025+1.0.5-beta']
+      tags: ['v2026+1.0.0-beta.1']
     }
   ],
   planning: [],
