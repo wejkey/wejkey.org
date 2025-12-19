@@ -1,5 +1,13 @@
 # Changelog 
 
+## [v2026+1.0.0-beta.2] - December 19, 2025
+
+### Removed
+- Every .txt note in notes (only changelog stays)
+- Updated versions
+
+--------------------------
+
 ## [v2026+1.0.0-beta.1] - December 15, 2025
 
 ### Added
