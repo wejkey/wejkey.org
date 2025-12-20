@@ -759,11 +759,6 @@ footer {
   animation: spin 1.2s linear infinite;
 }
 
-.preloader-sub {
-  color: var(--muted);
-  letter-spacing: 0.05em;
-}
-
 @keyframes spin {
   to {
     transform: rotate(360deg);

@@ -343,7 +343,7 @@ function initPreloader() {
   setTimeout(() => {
     preloader.classList.add('hidden');
     document.body.classList.remove('loading');
-  }, 1200);
+  }, 700);
 }
 
 function initCountdown() {

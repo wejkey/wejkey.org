@@ -5,7 +5,8 @@
 ### Fixed
 - Grammar
 
-## Updated
+## Changed
+- Loading time
 - Timeline
 
 ## Removed
