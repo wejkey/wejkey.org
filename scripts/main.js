@@ -7,13 +7,14 @@ const projects = {
       description: 'Everything you see here, is part of this project.',
       githubUrl: 'https://github.com/wejkey/Website',
       projectUrl: 'https://wejkey.org',
-      tags: ['v2026+1.0.0-beta.2']
+      tags: ['v2026+1.0.0-beta.3']
     },
     {
       icon: 'fa-solid fa-database',
       title: 'Database',
       dateCreated: 'November 2025',
       description: 'Documentation for projects that "are under active development".',
+      githubUrl: 'https://github.com/wejkey/database.wejkey.org',
       projectUrl: 'https://database.wejkey.org',
       tags: ['v2026+1.0.0-beta.1']
     }
@@ -52,32 +53,24 @@ const projects = {
 const timeline = [
   {
     date: 'December 2025',
-    title: 'Almost, 2026!',
-    description: '2026-ready redesign with winter mode. Want to see <a class="fornownoclass" href="/old">older version</a>?'
+    title: 'Database reload',
+    description: 'New redesigned database for 2026'
   },
   {
-    date: 'Nobember 2025',
+    date: 'November 2025',
     title: 'Database',
     description: 'Database(+wejkey.org) with documentation for projects'
   },
   {
     date: 'October 2025',
-    title: 'Reload',
-    description: 'New "Wejkey.org" with redesign'
+    title: 'Portfolio reload',
+    description: 'New redesigned portfolio for 2026'
   },
   {
     date: 'October 2024',
     title: 'wejkey.github.io',
     description: 'This is where it all started.'
   }
-];
-
-const futureIdeas = [
-  {
-    status: 'Already testing',
-    title: 'WejDev',
-    description: 'Minecraft plugin development'
-  },
 ];
 
 function initParticles() {
@@ -242,24 +235,6 @@ function renderTimeline() {
   observeReveals();
 }
 
-function renderIdeas() {
-  const grid = document.getElementById('ideas-grid');
-  grid.innerHTML = '';
-
-  futureIdeas.forEach(idea => {
-    const card = document.createElement('div');
-    card.className = 'idea-card reveal';
-    card.innerHTML = `
-      <span class="idea-badge">${idea.status}</span>
-      <h4 class="idea-title">${idea.title}</h4>
-      <p class="idea-description">${idea.description}</p>
-    `;
-    grid.appendChild(card);
-  });
-
-  observeReveals();
-}
-
 function initProjectTabs() {
   const tabButtons = document.querySelectorAll('.tab-btn');
 
@@ -410,6 +385,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initSmoothScroll();
   initCopyButtons();
   renderTimeline();
-  renderIdeas();
   observeReveals();
 });

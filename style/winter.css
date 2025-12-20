@@ -658,16 +658,6 @@ section {
   color: var(--muted);
 }
 
-.ideas-section {
-  position: relative;
-}
-
-.ideas-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1.25rem;
-}
-
 .idea-card {
   background: linear-gradient(140deg, rgba(10, 21, 40, 0.9), rgba(16, 32, 58, 0.85));
   border: 1px solid rgba(255, 255, 255, 0.05);
