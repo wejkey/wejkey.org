@@ -601,17 +601,6 @@ section {
   box-shadow: 0 10px 40px rgba(111, 212, 255, 0.35);
 }
 
-.btn-secondary {
-  background: rgba(255, 255, 255, 0.03);
-  color: var(--text);
-  border-color: rgba(255, 255, 255, 0.08);
-}
-
-.btn-secondary:hover {
-  border-color: var(--primary);
-  transform: translateY(-2px);
-}
-
 .timeline-section {
   position: relative;
 }
