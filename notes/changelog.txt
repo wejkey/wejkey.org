@@ -3,8 +3,8 @@
 ## [v2026+1.0.0-beta.4] - December 22, 2025
 
 ## Removed
-- Hangar.paper
-- Secondary contact button
+- PaperMC Hangar
+- Two primary buttons
 
 --------------------------
 
