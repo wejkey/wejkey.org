@@ -582,6 +582,29 @@ section {
   transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
 }
 
+.btn-primary {
+  background: linear-gradient(120deg, var(--primary), var(--magenta));
+  color: #041226;
+  border-color: transparent;
+  box-shadow: var(--glow);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 40px rgba(111, 212, 255, 0.35);
+}
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.btn-secondary:hover {
+  border-color: var(--primary);
+  transform: translateY(-2px);
+}
+
 .timeline-section {
   position: relative;
 }
@@ -626,6 +649,16 @@ section {
 
 .timeline-description {
   color: var(--muted);
+}
+
+.ideas-section {
+  position: relative;
+}
+
+.ideas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
 }
 
 .idea-card {
@@ -727,6 +760,11 @@ footer {
   border-top-color: var(--primary);
   border-right-color: var(--magenta);
   animation: spin 1.2s linear infinite;
+}
+
+.preloader-sub {
+  color: var(--muted);
+  letter-spacing: 0.05em;
 }
 
 @keyframes spin {
