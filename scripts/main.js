@@ -205,7 +205,6 @@ function renderProjects(category) {
       <p class="project-description">${project.description}</p>
       <div class="project-buttons">
         ${project.githubUrl ? `<a href="${project.githubUrl}" target="_blank" class="btn btn-primary"><i class="fab fa-github"></i> GitHub</a>` : ''}
-        ${project.projectUrl ? `<a href="${project.projectUrl}" target="_blank" class="btn btn-secondary"><i class="fas fa-external-link-alt"></i> Visit</a>` : ''}
       </div>
     `;
 
