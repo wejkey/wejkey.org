@@ -1,5 +1,12 @@
 # Changelog 
 
+## [v2026+1.0.0-beta.4] - December 22, 2025
+
+## Removed
+- Hangar.paper 
+
+--------------------------
+
 ## [v2026+1.0.0-beta.3] - December 20, 2025
 
 ### Fixed
