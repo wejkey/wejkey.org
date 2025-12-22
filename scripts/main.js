@@ -7,7 +7,7 @@ const projects = {
       description: 'Everything you see here, is part of this project.',
       githubUrl: 'https://github.com/wejkey/Website',
       projectUrl: 'https://wejkey.org',
-      tags: ['v2026+1.0.0-beta.3']
+      tags: ['v2026+1.0.0-beta.4']
     },
     {
       icon: 'fa-solid fa-database',
