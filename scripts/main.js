@@ -3,11 +3,11 @@ const projects = {
     {
       icon: 'fas fa-code',
       title: 'Portfolio',
-      dateCreated: 'October 25, 2026',
+      dateCreated: 'October 25, 2024',
       description: 'Everything you see here, is part of this project.',
       githubUrl: 'https://github.com/wejkey/Website',
       projectUrl: 'https://wejkey.org',
-      tags: ['v2026+1.0.0-beta.4']
+      tags: ['v2026+1.0.0-beta.5']
     },
     {
       icon: 'fa-solid fa-database',
