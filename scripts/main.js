@@ -7,12 +7,12 @@ const projects = {
       description: 'Everything you see here, is part of this project.',
       githubUrl: 'https://github.com/wejkey/Website',
       projectUrl: 'https://wejkey.org',
-      tags: ['v2026+1.0.0-beta.5']
+      tags: ['v2026+1.0.0-beta.6']
     },
     {
       icon: 'fa-solid fa-database',
       title: 'Database',
-      dateCreated: 'November 2025',
+      dateCreated: 'November 23, 2025',
       description: 'Documentation for projects that "are under active development".',
       githubUrl: 'https://github.com/wejkey/database.wejkey.org',
       projectUrl: 'https://database.wejkey.org',
@@ -57,14 +57,14 @@ const timeline = [
     description: 'New redesigned database for 2026'
   },
   {
+    date: 'December 2025',
+    title: 'Portfolio reload',
+    description: 'New redesigned portfolio for 2026'
+  },
+  {
     date: 'November 2025',
     title: 'Database',
     description: 'Database(+wejkey.org) with documentation for projects'
-  },
-  {
-    date: 'October 2025',
-    title: 'Portfolio reload',
-    description: 'New redesigned portfolio for 2026'
   },
   {
     date: 'October 2024',

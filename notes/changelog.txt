@@ -1,9 +1,17 @@
 # Changelog 
 
+## [v2026+1.0.0-beta.6] - December 26, 2025
+
+## Fixed
+- Grammar errors
+- Minor details
+
+--------------------------
+
 ## [v2026+1.0.0-beta.5] - December 22, 2025
 
 ## Fixed
-- Projects > Portfolio release date
+- Portfolio release date in projects
 
 --------------------------
 
