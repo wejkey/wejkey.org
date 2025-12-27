@@ -7,7 +7,7 @@ const projects = {
       description: 'Everything you see here, is part of this project.',
       githubUrl: 'https://github.com/wejkey/Website',
       projectUrl: 'https://wejkey.org',
-      tags: ['v2026+1.0.0-beta.6']
+      tags: ['v2026+1.0.0-beta.7']
     },
     {
       icon: 'fa-solid fa-database',
@@ -19,7 +19,14 @@ const projects = {
       tags: ['v2026+1.0.0-beta.1']
     }
   ],
-  planning: [],
+  planning: [
+    {
+      icon: 'fa-solid fa-cube',
+      title: 'Prominence',
+      dateCreated: 'December 27, 2025',
+      description: 'Minecraft Server.',
+    }
+  ],
   archive: [
     {
       icon: 'fa-solid fa-earth-europe',
