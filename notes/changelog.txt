@@ -1,5 +1,12 @@
 # Changelog 
 
+## [v2026+1.0.0-beta.7] - December 27, 2025
+
+## Added
+- Planning projects > "Prominence"
+
+--------------------------
+
 ## [v2026+1.0.0-beta.6] - December 26, 2025
 
 ## Fixed
