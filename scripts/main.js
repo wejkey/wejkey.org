@@ -22,7 +22,7 @@ const projects = {
   planning: [
     {
       icon: 'fa-solid fa-cube',
-      title: 'Prominence',
+      title: 'Minecraft server',
       dateCreated: 'December 27, 2025',
       description: 'Minecraft Server.',
     }

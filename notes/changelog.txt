@@ -3,7 +3,7 @@
 ## [v2026+1.0.0-beta.7] - December 27, 2025
 
 ## Added
-- Planning projects > "Prominence"
+- Planning projects > "Minecraft server"
 
 --------------------------
 
