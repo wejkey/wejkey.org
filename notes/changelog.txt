@@ -1,5 +1,13 @@
 # Changelog 
 
+## [v2026+1.0.0] - December 30, 2025
+
+## Changed
+- Planning project name
+- Temporary paused development for Database
+
+--------------------------
+
 ## [v2026+1.0.0-beta.7] - December 27, 2025
 
 ## Added

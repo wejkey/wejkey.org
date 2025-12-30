@@ -7,7 +7,7 @@ const projects = {
       description: 'Everything you see here, is part of this project.',
       githubUrl: 'https://github.com/wejkey/Website',
       projectUrl: 'https://wejkey.org',
-      tags: ['v2026+1.0.0-beta.7']
+      tags: ['v2026+1.0.0']
     },
     {
       icon: 'fa-solid fa-database',
@@ -16,13 +16,13 @@ const projects = {
       description: 'Documentation for projects that "are under active development".',
       githubUrl: 'https://github.com/wejkey/database.wejkey.org',
       projectUrl: 'https://database.wejkey.org',
-      tags: ['v2026+1.0.0-beta.1']
+      tags: ['v2026+1.0.0']
     }
   ],
   planning: [
     {
       icon: 'fa-solid fa-cube',
-      title: 'Minecraft server',
+      title: 'Preminent.net',
       dateCreated: 'December 27, 2025',
       description: 'Minecraft Server.',
     }
