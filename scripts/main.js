@@ -10,6 +10,15 @@ const projects = {
       tags: ['v2026+1.0.0']
     },
     {
+      icon: 'fa-solid fa-cube',
+      title: 'Preminent.net',
+      dateCreated: 'December 27, 2025',
+      description: 'Minecraft Server.',
+      githubUrl: 'https://github.com/Preminent-Network-Team',
+      projectUrl: 'https://preminent.org',
+      tags: ['v2026+1.0.0']
+    },
+    {
       icon: 'fa-solid fa-database',
       title: 'Database',
       dateCreated: 'November 23, 2025',
@@ -19,14 +28,7 @@ const projects = {
       tags: ['v2026+1.0.0']
     }
   ],
-  planning: [
-    {
-      icon: 'fa-solid fa-cube',
-      title: 'Preminent.net',
-      dateCreated: 'December 27, 2025',
-      description: 'Minecraft Server.',
-    }
-  ],
+  planning: [],
   archive: [
     {
       icon: 'fa-solid fa-earth-europe',
