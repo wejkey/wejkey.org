@@ -365,7 +365,7 @@ function initCountdown() {
     let diff = targetDate.getTime() - now.getTime();
 
     if (diff <= 0) {
-      badge.textContent = 'Welcome to 2026';
+      badge.textContent = 'Happy New Year!';
       return;
     }
 
