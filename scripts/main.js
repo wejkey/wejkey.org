@@ -54,7 +54,7 @@ const projects = {
       dateArchived: 'November 2025',
       description: '(Community Networks Emoji Packs) Emojis packs of Discord servers Im part of or I like them',
       githubUrl: 'https://github.com/wejkey/CNEP/releases',
-      tags: ['v2025+November']
+      tags: ['v2025+1.0.0']
     }
   ]
 };

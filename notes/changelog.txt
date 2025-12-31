@@ -1,6 +1,21 @@
 # Changelog 
 
-## [v2026+1.0.0] - December 30, 2025
+--------------------------
+
+# END OF YEAR 2025
+
+--------------------------
+
+## [v2026+1.0.0] - December 31, 2025
+
+Wejkey.org (wejkey.github.io/wejkeyy.github.io) exists since 2024. Thats 3 years
+of development, new projects and learning. Thanks for checking this page or any project I developed. It means a lot.
+
+I hope, 2026 will be as best as it can be for you.
+
+--------------------------
+
+## [v2026+1.0.0-beta.8] - December 30, 2025
 
 ## Changed
 - Planning project name
