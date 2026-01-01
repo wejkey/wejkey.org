@@ -5,8 +5,7 @@ const projects = {
       title: 'Portfolio',
       dateCreated: 'October 25, 2024',
       description: 'Everything you see here, is part of this project.',
-      githubUrl: 'https://github.com/wejkey/Website',
-      projectUrl: 'https://wejkey.org',
+      websiteUrl: 'https://wejkey.org',
       tags: ['v2026+1.0.0']
     },
     {
@@ -14,8 +13,7 @@ const projects = {
       title: 'Preminent.net',
       dateCreated: 'December 27, 2025',
       description: 'Minecraft Server.',
-      githubUrl: 'https://github.com/Preminent-Network-Team',
-      projectUrl: 'https://preminent.org',
+      websiteUrl: 'https://preminent.net',
       tags: ['v2026+1.0.0']
     },
     {
@@ -23,8 +21,7 @@ const projects = {
       title: 'Database',
       dateCreated: 'November 23, 2025',
       description: 'Documentation for projects that "are under active development".',
-      githubUrl: 'https://github.com/wejkey/database.wejkey.org',
-      projectUrl: 'https://database.wejkey.org',
+      websiteUrl: 'https://database.wejkey.org',
       tags: ['v2026+1.0.0']
     }
   ],
@@ -36,7 +33,7 @@ const projects = {
       dateCreated: 'February 2025',
       dateArchived: 'October 2025',
       description: 'Minecraft plugins and plugin ideas for servers.',
-      githubUrl: 'https://github.com/wejkey/InternationalMC/blob/main/README.md',
+      websiteUrl: 'https://github.com/wejkey/InternationalMC/blob/main/README.md',
       tags: ['v2025+2.0.8']
     },
     {
@@ -53,7 +50,7 @@ const projects = {
       dateCreated: 'October 2025',
       dateArchived: 'November 2025',
       description: '(Community Networks Emoji Packs) Emojis packs of Discord servers Im part of or I like them',
-      githubUrl: 'https://github.com/wejkey/CNEP/releases',
+      websiteUrl: 'https://github.com/wejkey/CNEP/releases',
       tags: ['v2025+1.0.0']
     }
   ]
@@ -213,7 +210,7 @@ function renderProjects(category) {
       </div>
       <p class="project-description">${project.description}</p>
       <div class="project-buttons">
-        ${project.githubUrl ? `<a href="${project.githubUrl}" target="_blank" class="btn btn-primary"><i class="fab fa-github"></i> GitHub</a>` : ''}
+        ${(project.projectUrl || project.websiteUrl) ? `<a href="${project.projectUrl || project.websiteUrl}" target="_blank" class="btn btn-primary"><i class="fa-solid fa-globe"></i> Check</a>` : ''}
       </div>
     `;
 
@@ -358,14 +355,14 @@ function initCountdown() {
   const badge = document.getElementById('countdown-badge');
   if (!badge) return;
 
-  const targetDate = new Date('2025-12-31T23:59:59');
+  const targetDate = new Date('2026-05-22T00:00:00');
 
   const updateCountdown = () => {
     const now = new Date();
     let diff = targetDate.getTime() - now.getTime();
 
     if (diff <= 0) {
-      badge.textContent = 'Happy New Year!';
+      badge.textContent = 'Getting old...';
       return;
     }
 

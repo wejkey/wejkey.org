@@ -2,6 +2,13 @@
 
 --------------------------
 
+## [v2026+1.0.1] - January 1, 2026
+
+## Changed
+- Github link project changed to link to website of specific project
+
+--------------------------
+
 # END OF YEAR 2025
 
 --------------------------
