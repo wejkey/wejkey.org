@@ -6,7 +6,7 @@ const projects = {
       dateCreated: 'October 25, 2024',
       description: 'Everything you see here, is part of this project.',
       websiteUrl: 'https://wejkey.org',
-      tags: ['v2026+1.0.0']
+      tags: ['v2026+1.0.2']
     },
     {
       icon: 'fa-solid fa-cube',
@@ -14,7 +14,7 @@ const projects = {
       dateCreated: 'December 27, 2025',
       description: 'Minecraft Server.',
       websiteUrl: 'https://preminent.net',
-      tags: ['v2026+1.0.0']
+      tags: ['N/A']
     },
     {
       icon: 'fa-solid fa-database',
@@ -58,6 +58,11 @@ const projects = {
 
 const timeline = [
   {
+    date: 'January 2026',
+    title: 'New focus',
+    description: 'New year = new projects = new Minecraft server.'
+  },
+  {
     date: 'December 2025',
     title: 'Database reload',
     description: 'New redesigned database for 2026'
@@ -70,7 +75,7 @@ const timeline = [
   {
     date: 'November 2025',
     title: 'Database',
-    description: 'Database(+wejkey.org) with documentation for projects'
+    description: 'Database(.wejkey.org) with documentation for projects'
   },
   {
     date: 'October 2024',
@@ -348,7 +353,7 @@ function initPreloader() {
   setTimeout(() => {
     preloader.classList.add('hidden');
     document.body.classList.remove('loading');
-  }, 700);
+  }, 500); // LOADING SPEED
 }
 
 function initCountdown() {

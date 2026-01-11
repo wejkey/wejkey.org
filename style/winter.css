@@ -453,13 +453,6 @@ section {
   border-color: transparent;
 }
 
-.eyebrow {
-  color: var(--muted);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  font-size: 0.75rem;
-}
-
 .stat {
   font-size: 1.1rem;
   font-weight: 700;
