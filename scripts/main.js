@@ -6,7 +6,7 @@ const projects = {
       dateCreated: 'October 25, 2024',
       description: 'Everything you see here, is part of this project.',
       websiteUrl: 'https://wejkey.org',
-      tags: ['v2026+1.0.2']
+      tags: ['v2026+1.0.3']
     },
     {
       icon: 'fa-solid fa-cube',
