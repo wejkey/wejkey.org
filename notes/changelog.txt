@@ -2,6 +2,16 @@
 
 --------------------------
 
+## [v2026+1.0.3] - January 17, 2026
+
+### Changed
+- Discord link
+
+### Removed
+- review.wejkey.org
+
+--------------------------
+
 ## [v2026+1.0.2] - January 11, 2026
 
 ### Fixed
