@@ -8,6 +8,8 @@ const projects = {
       websiteUrl: 'https://wejkey.org',
       tags: ['v2026+1.0.3']
     },
+  ],
+  planning: [
     {
       icon: 'fa-solid fa-cube',
       title: 'Preminent.net',
@@ -15,18 +17,17 @@ const projects = {
       description: 'Minecraft Server.',
       websiteUrl: 'https://preminent.net',
       tags: ['N/A']
-    },
+    }
+  ],
+  archive: [
     {
       icon: 'fa-solid fa-database',
       title: 'Database',
       dateCreated: 'November 23, 2025',
       description: 'Documentation for projects that "are under active development".',
       websiteUrl: 'https://database.wejkey.org',
-      tags: ['v2026+1.0.0']
-    }
-  ],
-  planning: [],
-  archive: [
+      tags: ['v2026+1.0.1']
+    },
     {
       icon: 'fa-solid fa-earth-europe',
       title: 'InternationalMC',
@@ -353,7 +354,7 @@ function initPreloader() {
   setTimeout(() => {
     preloader.classList.add('hidden');
     document.body.classList.remove('loading');
-  }, 500); // LOADING SPEED
+  }, 300); // LOADING SPEED
 }
 
 function initCountdown() {

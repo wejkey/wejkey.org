@@ -2,6 +2,21 @@
 
 --------------------------
 
+## [v2026+1.0.4] - January 18, 2026
+
+### Changed
+- Project "Preminent Network" (Active) -> (Planning)
+- Loading speed
+
+### Updated
+- About me
+
+### Removed
+- "Focus" box on homepage
+- Steam and Modrinth as socials on homepage
+
+--------------------------
+
 ## [v2026+1.0.3] - January 17, 2026
 
 ### Changed
