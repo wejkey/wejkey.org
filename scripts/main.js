@@ -26,7 +26,6 @@ const projects = {
       dateCreated: 'December 26, 2025',
       dateArchived: 'January 21, 2026',
       description: 'Review of year 2025.',
-      websiteUrl: 'https://review.wejkey.org',
       tags: ['2025']
     },
     {
