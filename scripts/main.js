@@ -6,7 +6,7 @@ const projects = {
       dateCreated: 'October 25, 2024',
       description: 'Everything you see here, is part of this project.',
       websiteUrl: 'https://wejkey.org',
-      tags: ['v2026+1.0.3']
+      tags: ['v2026+1.0.5']
     },
   ],
   planning: [
@@ -16,14 +16,32 @@ const projects = {
       dateCreated: 'December 27, 2025',
       description: 'Minecraft Server.',
       websiteUrl: 'https://preminent.net',
-      tags: ['N/A']
+      tags: ['2026+0.1.0']
     }
   ],
   archive: [
     {
+      icon: 'fa-solid fa-clock-rotate-left',
+      title: 'Review',
+      dateCreated: 'December 26, 2025',
+      dateArchived: 'January 21, 2026',
+      description: 'Review of year 2025.',
+      websiteUrl: 'https://review.wejkey.org',
+      tags: ['2025']
+    },
+    {
+      icon: 'fa-solid fa-code',
+      title: 'Plugin Development',
+      dateCreated: 'January 17, 2025',
+      dateArchived: 'January 21, 2026',
+      description: 'Minecraft plugin development that reached over 3000+ downloads.',
+      tags: ['N/A']
+    },
+    {
       icon: 'fa-solid fa-database',
       title: 'Database',
       dateCreated: 'November 23, 2025',
+      dateArchived: 'January 18, 2026',
       description: 'Documentation for projects that "are under active development".',
       websiteUrl: 'https://database.wejkey.org',
       tags: ['v2026+1.0.1']
@@ -31,8 +49,8 @@ const projects = {
     {
       icon: 'fa-solid fa-earth-europe',
       title: 'InternationalMC',
-      dateCreated: 'February 2025',
-      dateArchived: 'October 2025',
+      dateCreated: 'February 17, 2025',
+      dateArchived: 'October 3, 2025',
       description: 'Minecraft plugins and plugin ideas for servers.',
       websiteUrl: 'https://github.com/wejkey/InternationalMC/blob/main/README.md',
       tags: ['v2025+2.0.8']
@@ -40,19 +58,19 @@ const projects = {
     {
       icon: 'fa-solid fa-wrench',
       title: 'McUtility',
-      dateCreated: 'Very unknown',
-      dateArchived: 'Very unknown',
+      dateCreated: 'N/A',
+      dateArchived: 'N/A',
       description: 'Place where you find various Minecraft tools for servers.',
-      tags: ['v2025']
+      tags: ['N/A']
     },
     {
       icon: 'fa-solid fa-icons',
       title: 'CNEP',
-      dateCreated: 'October 2025',
-      dateArchived: 'November 2025',
-      description: '(Community Networks Emoji Packs) Emojis packs of Discord servers Im part of or I like them',
+      dateCreated: 'October 11, 2025',
+      dateArchived: 'November 17, 2025',
+      description: '(Community Networks Emoji Packs) Emojis packs of Discord servers Im part of or I like them.',
       websiteUrl: 'https://github.com/wejkey/CNEP/releases',
-      tags: ['v2025+1.0.0']
+      tags: ['N/A']
     }
   ]
 };

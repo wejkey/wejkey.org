@@ -1,5 +1,15 @@
 # Changelog 
 
+## [v2026+1.0.5] - January 21, 2026
+
+### Updated
+- Archived projects
+- All projects' versions
+
+### Removed
+- Versions of projects that dont't need versioning or versioning is NA
+- Github repositories that are useless or have been archived for a long time (CNEP, InternationalMC, Valentines)
+
 --------------------------
 
 ## [v2026+1.0.4] - January 18, 2026
