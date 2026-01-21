@@ -25,7 +25,7 @@ const projects = {
       title: 'Review',
       dateCreated: 'December 26, 2025',
       dateArchived: 'January 21, 2026',
-      description: 'Review of year 2025.',
+      description: 'Review of year 2025. (Link removed)',
       tags: ['2025']
     },
     {
@@ -50,8 +50,7 @@ const projects = {
       title: 'InternationalMC',
       dateCreated: 'February 17, 2025',
       dateArchived: 'October 3, 2025',
-      description: 'Minecraft plugins and plugin ideas for servers.',
-      websiteUrl: 'https://github.com/wejkey/InternationalMC/blob/main/README.md',
+      description: 'Minecraft plugins and plugin ideas for servers. (Link removed)',
       tags: ['v2025+2.0.8']
     },
     {
@@ -67,8 +66,7 @@ const projects = {
       title: 'CNEP',
       dateCreated: 'October 11, 2025',
       dateArchived: 'November 17, 2025',
-      description: '(Community Networks Emoji Packs) Emojis packs of Discord servers Im part of or I like them.',
-      websiteUrl: 'https://github.com/wejkey/CNEP/releases',
+      description: '(Community Networks Emoji Packs) Emojis packs of Discord servers Im part of or I like them. (Link removed)',
       tags: ['N/A']
     }
   ]
