@@ -8,7 +8,7 @@
 
 ### Removed
 - Versions of projects that dont't need versioning or versioning is NA
-- Github repositories that are useless or have been archived for a long time (CNEP, InternationalMC, Valentines)
+- Github repositories that are useless or have been archived for a long time (CNEP, InternationalMC, Valentines, review.wejkey.org)
 
 --------------------------
 
