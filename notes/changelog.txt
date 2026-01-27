@@ -1,7 +1,7 @@
 # Changelog
 
 
-## [v2026+1.0.6] - January 21, 2026
+## [v2026+1.0.6] - January 27, 2026
 
 ## Updated
 - Projects
