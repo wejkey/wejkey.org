@@ -1,5 +1,11 @@
 # Changelog
 
+## [v2026+1.0.7] - January 28, 2026
+
+## Fixed
+- "_" in homepage icons
+
+--------------------------
 
 ## [v2026+1.0.6] - January 27, 2026
 
