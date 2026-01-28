@@ -1,9 +1,12 @@
 # Changelog
 
-## [v2026+1.0.7] - January 28, 2026
+## [v2026+1.0.8] - January 28, 2026
 
 ## Fixed
 - "_" in homepage icons
+
+## Updated
+- Projects
 
 --------------------------
 

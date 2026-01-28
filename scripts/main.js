@@ -14,7 +14,7 @@ const projects = {
       dateCreated: 'November 23, 2025',
       description: 'Documentation for projects that are under active development',
       websiteUrl: 'https://database.wejkey.org',
-      tags: ['v2026+1.0.2']
+      tags: ['v2026+1.1.0']
     },
     {
       icon: 'fa-solid fa-wrench',
