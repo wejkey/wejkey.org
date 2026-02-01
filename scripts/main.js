@@ -6,7 +6,7 @@ const projects = {
       dateCreated: 'October 25, 2024',
       description: 'Everything you see here, is part of this project',
       websiteUrl: 'https://wejkey.org',
-      tags: ['v2026+1.0.7']
+      tags: ['v2026+1.0.8']
     },
     {
       icon: 'fa-solid fa-database',
@@ -14,27 +14,18 @@ const projects = {
       dateCreated: 'November 23, 2025',
       description: 'Documentation for projects that are under active development',
       websiteUrl: 'https://database.wejkey.org',
-      tags: ['v2026+1.1.0']
+      tags: ['v2026+1.1.1']
     },
     {
       icon: 'fa-solid fa-wrench',
-      title: 'Minecraft Development',
+      title: 'Plugin Development',
       dateCreated: 'January 27, 2025',
       description: 'Minecraft plugins or other stuff for this game',
       websiteUrl: 'https://modrinth.com/user/Antarctic',
       tags: ['N/A']
     }
   ],
-  planning: [
-    {
-      icon: 'fa-solid fa-cube',
-      title: 'Preminent.net',
-      dateCreated: 'December 27, 2025',
-      description: 'Minecraft Server.',
-      websiteUrl: 'https://preminent.net',
-      tags: ['2026+0.1.0']
-    }
-  ],
+  planning: [],
   archive: [
     {
       icon: 'fa-solid fa-earth-europe',
@@ -44,6 +35,14 @@ const projects = {
       description: 'Minecraft plugins and plugin ideas for servers. (Link removed)',
       tags: ['v2025+2.0.8']
     },
+    {
+      icon: 'fa-solid fa-cube',
+      title: 'Preminent.net',
+      dateCreated: 'December 27, 2025',
+      description: 'Minecraft Server.',
+      websiteUrl: 'https://preminent.net',
+      tags: ['2026+0.1.1']
+    }
   ]
 };
 
