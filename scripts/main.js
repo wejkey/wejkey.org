@@ -3,24 +3,24 @@ const projects = {
     {
       icon: 'fas fa-code',
       title: 'Portfolio',
-      dateCreated: 'October 25, 2024',
-      description: 'Everything you see here, is part of this project',
+      dateCreated: 'Oct 25, 2024',
+      description: 'This page (and its older versions)',
       websiteUrl: 'https://wejkey.org',
-      tags: ['v2026+1.0.9']
+      tags: ['v2026+1.10']
     },
     {
       icon: 'fa-solid fa-database',
       title: 'Database',
-      dateCreated: 'November 23, 2025',
-      description: 'Documentation for projects that are under active development',
+      dateCreated: 'Nov 23, 2025',
+      description: 'Documentation for Minecraft plugins',
       websiteUrl: 'https://database.wejkey.org',
-      tags: ['v2026+1.2.1']
+      tags: ['v2026+1.3']
     },
     {
       icon: 'fa-solid fa-wrench',
       title: 'Plugin Development',
-      dateCreated: 'January 27, 2025',
-      description: 'Minecraft plugins or other stuff for this game',
+      dateCreated: 'Feb, 2025',
+      description: 'Minecraft plugin development',
       websiteUrl: 'https://modrinth.com/user/Antarctic',
       tags: ['N/A']
     }
@@ -30,39 +30,21 @@ const projects = {
     {
       icon: 'fa-solid fa-earth-europe',
       title: 'InternationalMC',
-      dateCreated: 'February 17, 2025',
-      dateArchived: 'October 3, 2025',
-      description: 'Minecraft plugins and plugin ideas for servers. (Link removed)',
+      dateCreated: 'Feb 17, 2025',
+      dateArchived: 'Oct 3, 2025',
+      description: 'Older Minecraft plugin development',
       tags: ['v2025+2.0.8']
     },
     {
       icon: 'fa-solid fa-cube',
       title: 'Preminent.net',
-      dateCreated: 'December 27, 2025',
-      description: 'Minecraft Server.',
-      websiteUrl: 'https://preminent.net',
+      dateCreated: 'Dec 27, 2025',
+      dateArchived: 'Feb 1, 2026',
+      description: 'Minecraft Server (Link removed)',
       tags: ['2026+0.1.1']
     }
   ]
 };
-
-const timeline = [
-  {
-    date: 'December 2025',
-    title: 'Portfolio & DB reload',
-    description: 'New redesigned portfolio & database for 2026'
-  },
-  {
-    date: 'November 2025',
-    title: 'Database',
-    description: 'Created database with documentation for projects'
-  },
-  {
-    date: 'October 2024',
-    title: 'wejkey.github.io',
-    description: 'This is where it all started.'
-  }
-];
 
 function initParticles() {
   const canvas = document.getElementById('particles');
@@ -166,7 +148,7 @@ function renderProjects(category) {
 
   if (!projectList.length) {
     const empty = document.createElement('p');
-    empty.textContent = 'No projects yet—check back soon.';
+    empty.textContent = 'No projects yet';
     empty.className = 'project-description';
     container.appendChild(empty);
     return;
@@ -180,9 +162,9 @@ function renderProjects(category) {
     if (project.dateCreated && project.dateArchived) {
       dateText = `${project.dateCreated} • ${project.dateArchived}`;
     } else if (project.dateCreated) {
-      dateText = `Started ${project.dateCreated}`;
+      dateText = `${project.dateCreated}`;
     } else if (project.dateArchived) {
-      dateText = `Archived ${project.dateArchived}`;
+      dateText = `${project.dateArchived}`;
     }
 
     card.innerHTML = `
@@ -202,24 +184,6 @@ function renderProjects(category) {
     card.appendChild(createTagElements(project.tags));
 
     container.appendChild(card);
-  });
-
-  observeReveals();
-}
-
-function renderTimeline() {
-  const container = document.getElementById('timeline-container');
-  container.innerHTML = '';
-
-  timeline.forEach(entry => {
-    const item = document.createElement('div');
-    item.className = 'timeline-item reveal';
-    item.innerHTML = `
-      <p class="timeline-date">${entry.date}</p>
-      <h4 class="timeline-title">${entry.title}</h4>
-      <p class="timeline-description">${entry.description}</p>
-    `;
-    container.appendChild(item);
   });
 
   observeReveals();
@@ -337,7 +301,7 @@ function initCountdown() {
     let diff = targetDate.getTime() - now.getTime();
 
     if (diff <= 0) {
-      badge.textContent = 'Getting old...';
+      badge.textContent = 'Happy Birthday!';
       return;
     }
 
@@ -363,6 +327,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initProjectTabs();
   initSmoothScroll();
   initCopyButtons();
-  renderTimeline();
   observeReveals();
 });
