@@ -6,7 +6,7 @@ const projects = {
       dateCreated: 'Oct 25, 2024',
       description: 'This page (and its older versions)',
       websiteUrl: 'https://wejkey.org',
-      tags: ['v2026+1.10']
+      tags: ['v2026+1.0.11']
     },
     {
       icon: 'fa-solid fa-database',
@@ -14,7 +14,7 @@ const projects = {
       dateCreated: 'Nov 23, 2025',
       description: 'Documentation for Minecraft plugins',
       websiteUrl: 'https://database.wejkey.org',
-      tags: ['v2026+1.3']
+      tags: ['v2026+1.0.3']
     },
     {
       icon: 'fa-solid fa-wrench',

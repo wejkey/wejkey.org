@@ -1,5 +1,14 @@
 # Changelog
 
+## [v2026+1.0.11] - February 10, 2026
+
+### Updated
+- versioning
+- projects
+- modrinth link
+
+--------------------------
+
 ## [v2026+1.10] - February 7, 2026
 
 ### Updated
