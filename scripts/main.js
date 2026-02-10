@@ -13,7 +13,7 @@ const projects = {
       title: 'Plugin Development',
       dateCreated: 'Feb, 2025',
       description: 'Minecraft plugin development',
-      websiteUrl: 'https://modrinth.com/user/Antarctic',
+      websiteUrl: 'https://modrinth.com/user/prezta',
       tags: ['N/A']
     }
   ],
@@ -41,7 +41,6 @@ const projects = {
       dateCreated: 'Nov 23, 2025',
       dateArchived: 'Feb 11, 2026',
       description: 'Documentation for Minecraft plugins',
-      websiteUrl: 'https://database.wejkey.org',
       tags: ['v2026+1.0.3']
     }
   ]
