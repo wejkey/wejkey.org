@@ -6,15 +6,7 @@ const projects = {
       dateCreated: 'Oct 25, 2024',
       description: 'This page (and its older versions)',
       websiteUrl: 'https://wejkey.org',
-      tags: ['v2026+1.0.11']
-    },
-    {
-      icon: 'fa-solid fa-database',
-      title: 'Database',
-      dateCreated: 'Nov 23, 2025',
-      description: 'Documentation for Minecraft plugins',
-      websiteUrl: 'https://database.wejkey.org',
-      tags: ['v2026+1.0.3']
+      tags: ['v2026+1.0.12']
     },
     {
       icon: 'fa-solid fa-wrench',
@@ -42,6 +34,15 @@ const projects = {
       dateArchived: 'Feb 1, 2026',
       description: 'Minecraft Server (Link removed)',
       tags: ['2026+0.1.1']
+    },
+    {
+      icon: 'fa-solid fa-database',
+      title: 'Database',
+      dateCreated: 'Nov 23, 2025',
+      dateArchived: 'Feb 11, 2026',
+      description: 'Documentation for Minecraft plugins',
+      websiteUrl: 'https://database.wejkey.org',
+      tags: ['v2026+1.0.3']
     }
   ]
 };
