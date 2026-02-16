@@ -1,5 +1,12 @@
 # Changelog
 
+## [v2026+1.0.13] - February 16, 2026
+
+### Updated
+- Updated links
+
+--------------------------
+
 ## [v2026+1.0.12] - February 11, 2026
 
 ### Updated
