@@ -13,7 +13,7 @@ const projects = {
       title: 'Plugin Development',
       dateCreated: 'Feb, 2025',
       description: 'Minecraft plugin development',
-      websiteUrl: 'https://modrinth.com/organization/devest',
+      websiteUrl: 'https://modrinth.com/organization/primly',
       tags: ['N/A']
     }
   ],
