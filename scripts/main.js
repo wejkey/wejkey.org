@@ -6,14 +6,14 @@ const projects = {
       dateCreated: 'Oct 25, 2024',
       description: 'This page (and its older versions)',
       websiteUrl: 'https://wejkey.org',
-      tags: ['v2026+1.0.13']
+      tags: ['v2026+1.0.14']
     },
     {
       icon: 'fa-solid fa-wrench',
       title: 'Plugin Development',
       dateCreated: 'Feb, 2025',
       description: 'Minecraft plugin development',
-      websiteUrl: 'https://modrinth.com/organization/lyskamm',
+      websiteUrl: 'https://modrinth.com/organization/devest',
       tags: ['N/A']
     }
   ],
