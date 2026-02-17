@@ -1,5 +1,12 @@
 # Changelog
 
+## [v2026+1.0.16] - February 17, 2026 (SD)
+
+### Updated
+- Primly project link
+
+--------------------------
+
 ## [v2026+1.0.15] - February 17, 2026 (SD)
 
 ### Added

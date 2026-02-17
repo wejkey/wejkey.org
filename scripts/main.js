@@ -6,14 +6,14 @@ const projects = {
       dateCreated: 'Oct 25, 2024',
       description: 'This page (and its older versions)',
       websiteUrl: 'https://wejkey.org',
-      tags: ['v2026+1.0.15']
+      tags: ['v2026+1.0.16']
     },
     {
       icon: 'fa-solid fa-wrench',
       title: 'Primly',
       dateCreated: 'Feb, 2025',
       description: 'Minecraft plugin development',
-      websiteUrl: 'https://modrinth.com/organization/primly',
+      websiteUrl: 'https://primly.wejkey.org',
       tags: ['N/A']
     }
   ],
