@@ -1,5 +1,16 @@
 # Changelog
 
+## [v2026+1.0.15] - February 17, 2026 (SD)
+
+### Added
+- "Primly" to navbar
+
+### Updated
+- Projects
+- About me
+
+--------------------------
+
 ## [v2026+1.0.14] - February 17, 2026
 
 ### Updated
@@ -185,7 +196,7 @@ I hope, 2026 will be as best as it can be for you.
 
 --------------------------
 
-## [v2026+1.0-beta.5] - December 22, 2025
+## [v2026+1.0-beta.5] - December 22, 2025 (SD)
 
 ### Fixed
 - Portfolio release date in projects
@@ -269,7 +280,7 @@ I hope, 2026 will be as best as it can be for you.
 
 --------------------------
 
-## [3.1.2] - November 20, 2025
+## [3.1.2] - November 20, 2025 (SD)
 
 ### Changed
 - Contact icon "redirect" > "copy"
