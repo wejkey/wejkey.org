@@ -6,7 +6,7 @@ const projects = {
       dateCreated: 'Oct 25, 2024',
       description: 'This page (and its older versions)',
       websiteUrl: 'https://wejkey.org',
-      tags: ['v2026+1.0.16']
+      tags: ['v2026+1.0.17']
     },
     {
       icon: 'fa-solid fa-wrench',
@@ -18,12 +18,12 @@ const projects = {
     }
   ],
   planning: [],
-  archive: [
+  canceled: [
     {
       icon: 'fa-solid fa-earth-europe',
       title: 'InternationalMC',
       dateCreated: 'Feb 17, 2025',
-      dateArchived: 'Oct 3, 2025',
+      datecanceled: 'Oct 3, 2025',
       description: 'Older Minecraft plugin development',
       tags: ['v2025+2.0.8']
     },
@@ -31,7 +31,7 @@ const projects = {
       icon: 'fa-solid fa-cube',
       title: 'Preminent.net',
       dateCreated: 'Dec 27, 2025',
-      dateArchived: 'Feb 1, 2026',
+      datecanceled: 'Feb 1, 2026',
       description: 'Minecraft Server (Link removed)',
       tags: ['2026+0.1.1']
     },
@@ -39,7 +39,7 @@ const projects = {
       icon: 'fa-solid fa-database',
       title: 'Database',
       dateCreated: 'Nov 23, 2025',
-      dateArchived: 'Feb 11, 2026',
+      datecanceled: 'Feb 11, 2026',
       description: 'Documentation for Minecraft plugins',
       tags: ['v2026+1.0.3']
     }
@@ -148,7 +148,7 @@ function renderProjects(category) {
 
   if (!projectList.length) {
     const empty = document.createElement('p');
-    empty.textContent = 'No projects yet';
+    empty.textContent = 'Nothing.';
     empty.className = 'project-description';
     container.appendChild(empty);
     return;
@@ -159,12 +159,12 @@ function renderProjects(category) {
     card.className = 'project-card reveal';
 
     let dateText = '';
-    if (project.dateCreated && project.dateArchived) {
-      dateText = `${project.dateCreated} • ${project.dateArchived}`;
+    if (project.dateCreated && project.dateCanceled) {
+      dateText = `${project.dateCreated} • ${project.dateCanceled}`;
     } else if (project.dateCreated) {
       dateText = `${project.dateCreated}`;
-    } else if (project.dateArchived) {
-      dateText = `${project.dateArchived}`;
+    } else if (project.dateCanceled) {
+      dateText = `${project.dateCanceled}`;
     }
 
     card.innerHTML = `
