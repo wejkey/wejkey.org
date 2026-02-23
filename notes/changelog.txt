@@ -1,5 +1,19 @@
 # Changelog
 
+## [v2026+1.0.17] - February 17, 2026 (SD)
+
+### Updated
+- Scrollbar
+- Main font
+- Footer
+- Buttons
+- Filter "Archived" -> "Canceled"
+
+## Removed
+- "eyebrow". Text above section title
+
+--------------------------
+
 ## [v2026+1.0.16] - February 17, 2026 (SD)
 
 ### Updated
