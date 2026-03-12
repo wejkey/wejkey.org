@@ -1,5 +1,12 @@
 # Changelog
 
+## [v2026+2.0.0] - March 12, 2026
+
+### Updated
+- Coloring
+
+--------------------------
+
 ## [v2026+1.0.17] - February 17, 2026 (SD)
 
 ### Updated
@@ -325,3 +332,7 @@ I hope, 2026 will be as best as it can be for you.
 
 ### Changed
 - Main theme to "Winter"
+
+--------------------------
+
+SD = Same Day / Different Version

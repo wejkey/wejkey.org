@@ -6,7 +6,7 @@ const projects = {
       dateCreated: 'Oct 25, 2024',
       description: 'This page (and its older versions)',
       websiteUrl: 'https://wejkey.org',
-      tags: ['v2026+1.0.17']
+      tags: ['v2026+2.0.0']
     },
     {
       icon: 'fa-solid fa-wrench',
@@ -78,7 +78,7 @@ function initParticles() {
     }
 
     draw() {
-      ctx.fillStyle = 'rgba(143, 119, 249, 0.45)';
+      ctx.fillStyle = 'rgba(255, 107, 157, 0.45)';
       ctx.beginPath();
       ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
       ctx.fill();
@@ -104,7 +104,7 @@ function initParticles() {
         const distance = Math.sqrt(dx * dx + dy * dy);
 
         if (distance < 120) {
-          ctx.strokeStyle = `rgba(161, 255, 237, ${1 - distance / 120})`;
+          ctx.strokeStyle = `rgba(255, 161, 216, ${1 - distance / 120})`;
           ctx.lineWidth = 0.4;
           ctx.beginPath();
           ctx.moveTo(particlesArray[i].x, particlesArray[i].y);

@@ -7,14 +7,14 @@
 }
 
 :root {
-  --primary: #6fd4ff;
-  --primary-strong: #4aa8f0;
-  --bg: #060d1a;
-  --card: rgba(16, 28, 49, 0.75);
-  --muted: #b7c7df;
-  --text: #e8f4ff;
-  --accent: #a1ffed;
-  --glow: 0 20px 80px rgba(111, 212, 255, 0.25);
+  --primary: #ff6b9d;
+  --primary-strong: #e85c8b;
+  --bg: #0a0612;
+  --card: rgba(20, 10, 18, 0.75);
+  --muted: #d4b7c7;
+  --text: #f8e8f4;
+  --accent: #ffa1d8;
+  --glow: 0 20px 80px rgba(255, 107, 157, 0.25);
 }
 
 html {
@@ -23,9 +23,9 @@ html {
 
 body {
   font-family: 'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
-  background: radial-gradient(circle at 20% 20%, rgba(111, 212, 255, 0.08), transparent 35%),
-              radial-gradient(circle at 80% 0%, rgba(210, 139, 255, 0.12), transparent 30%),
-              linear-gradient(180deg, #050912 0%, #0a1324 40%, #060d1a 100%);
+  background: radial-gradient(circle at 20% 20%, rgba(255, 107, 157, 0.08), transparent 35%),
+              radial-gradient(circle at 80% 0%, rgba(255, 161, 216, 0.12), transparent 30%),
+              linear-gradient(180deg, #0a0612 0%, #120a18 40%, #0a0612 100%);
   color: var(--text);
   line-height: 1.6;
   overflow-x: hidden;
@@ -62,7 +62,7 @@ body::before {
   content: '';
   position: fixed;
   inset: 0;
-  background: radial-gradient(ellipse at top, rgba(135, 206, 235, 0.12) 0%, transparent 45%);
+  background: radial-gradient(ellipse at top, rgba(255, 107, 157, 0.12) 0%, transparent 45%);
   pointer-events: none;
   z-index: 1;
 }
@@ -80,7 +80,7 @@ body::before {
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(6, 13, 26, 0.75);
+  background: rgba(10, 6, 18, 0.75);
   backdrop-filter: blur(16px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
   z-index: 1000;
@@ -106,7 +106,7 @@ body::before {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: 0.05em;
-  text-shadow: 0 0 25px rgba(111, 212, 255, 0.35);
+  text-shadow: 0 0 25px rgba(255, 107, 157, 0.35);
 }
 
 .nav-menu {
@@ -215,8 +215,8 @@ section {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: rgba(111, 212, 255, 0.12);
-  border: 1px solid rgba(111, 212, 255, 0.35);
+  background: rgba(255, 107, 157, 0.12);
+  border: 1px solid rgba(255, 107, 157, 0.35);
   color: var(--text);
   padding: 0.5rem 0.9rem;
   border-radius: 999px;
@@ -350,7 +350,7 @@ section {
 
 .tab-btn.active {
   background: linear-gradient(120deg, var(--primary), var(--primary-strong));
-  color: #041226;
+  color: #0a0612;
   border-color: transparent;
   box-shadow: var(--glow);
 }
@@ -373,7 +373,7 @@ section {
 }
 
 .project-card {
-  background: linear-gradient(145deg, rgba(15, 22, 40, 0.9), rgba(17, 32, 58, 0.85));
+  background: linear-gradient(145deg, rgba(20, 10, 18, 0.9), rgba(25, 15, 22, 0.85));
   border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: 16px;
   padding: 1.5rem;
@@ -390,14 +390,14 @@ section {
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 20% 20%, rgba(111, 212, 255, 0.12), transparent 40%);
+  background: radial-gradient(circle at 20% 20%, rgba(255, 107, 157, 0.12), transparent 40%);
   pointer-events: none;
 }
 
 .project-card:hover {
   transform: translateY(-8px);
   box-shadow: var(--glow);
-  border-color: rgba(83, 156, 187, 0.332);
+  border-color: rgba(255, 107, 157, 0.332);
 }
 
 .project-header {
@@ -461,14 +461,14 @@ section {
 
 .btn-primary {
   background: linear-gradient(120deg, var(--primary), var(--primary-strong));
-  color: #041226;
+  color: #0a0612;
   border-color: transparent;
   box-shadow: var(--glow);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 40px rgba(111, 212, 255, 0.35);
+  box-shadow: 0 10px 40px rgba(255, 107, 157, 0.35);
 }
 
 .btn-secondary {
@@ -483,7 +483,7 @@ section {
 }
 
 footer {
-  background: linear-gradient(180deg, transparent, rgba(6, 13, 26, 0.85));
+  background: linear-gradient(180deg, transparent, rgba(10, 6, 18, 0.85));
   border-top: 2px solid rgba(255, 255, 255, 0.06);
   padding: 24px 0;
   text-align: center;
@@ -541,7 +541,7 @@ footer {
     flex-direction: column;
     gap: 0.4rem;
     padding: 1rem 1.25rem 1.25rem;
-    background: rgba(6, 13, 26, 0.95);
+    background: rgba(10, 6, 18, 0.95);
     border-bottom: 1px solid rgba(255, 255, 255, 0.06);
     box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
     backdrop-filter: blur(18px);
