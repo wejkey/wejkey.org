@@ -1,4 +1,14 @@
 # Changelog
++------------------------+
+SD = Same Day
++------------------------+
+
+## [v2026+2.0.2] - March 13, 2026 (SD)
+
+### Updated
+- Footer
+
+--------------------------
 
 ## [v2026+2.0.1] - March 13, 2026
 
@@ -341,5 +351,3 @@ I hope, 2026 will be as best as it can be for you.
 - Main theme to "Winter"
 
 --------------------------
-
-SD = Same Day / Different Version

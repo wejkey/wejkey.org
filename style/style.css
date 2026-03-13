@@ -482,13 +482,13 @@ section {
   transform: translateY(-2px);
 }
 
-footer {
-  background: linear-gradient(180deg, transparent, rgba(10, 6, 18, 0.85));
-  border-top: 2px solid rgba(255, 255, 255, 0.06);
-  padding: 24px 0;
+.footer {
+  background: rgba(10, 6, 18, 0.75);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 22px 0;
   text-align: center;
-  color: var(--text);
-  backdrop-filter: blur(20px);
+  color: var(--muted);
+  backdrop-filter: blur(16px);
 }
 
 @keyframes glitch {
