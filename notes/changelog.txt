@@ -3,6 +3,19 @@
 SD = Same Day
 +------------------------+
 
+## [v2026+2.0.3] - March 20, 2026 
+
+### Changed
+- Canceled projects now use "†" instead of dots :)
+
+### Fixed
+- Projects cancelation dates
+
+### Removed
+- Contact email
+
+--------------------------
+
 ## [v2026+2.0.2] - March 13, 2026 (SD)
 
 ### Updated

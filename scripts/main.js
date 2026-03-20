@@ -6,7 +6,7 @@ const projects = {
       dateCreated: 'Oct 25, 2024',
       description: 'This page (and its older versions)',
       websiteUrl: 'https://wejkey.org',
-      tags: ['v2026+2.0.1']
+      tags: ['v2026+2.0.3']
     },
     {
       icon: 'fa-solid fa-wrench',
@@ -23,7 +23,7 @@ const projects = {
       icon: 'fa-solid fa-earth-europe',
       title: 'InternationalMC',
       dateCreated: 'Feb 17, 2025',
-      datecanceled: 'Oct 3, 2025',
+      dateCanceled: 'Oct 3, 2025',
       description: 'Older Minecraft plugin development',
       tags: ['v2025+2.0.8']
     },
@@ -31,15 +31,15 @@ const projects = {
       icon: 'fa-solid fa-cube',
       title: 'Preminent.net',
       dateCreated: 'Dec 27, 2025',
-      datecanceled: 'Feb 1, 2026',
-      description: 'Minecraft Server (Link removed)',
+      dateCanceled: 'Feb 1, 2026',
+      description: 'Minecraft Server',
       tags: ['2026+0.1.1']
     },
     {
       icon: 'fa-solid fa-database',
       title: 'Database',
       dateCreated: 'Nov 23, 2025',
-      datecanceled: 'Feb 11, 2026',
+      dateCanceled: 'Feb 11, 2026',
       description: 'Documentation for Minecraft plugins',
       tags: ['v2026+1.0.3']
     }
@@ -160,7 +160,7 @@ function renderProjects(category) {
 
     let dateText = '';
     if (project.dateCreated && project.dateCanceled) {
-      dateText = `${project.dateCreated} • ${project.dateCanceled}`;
+      dateText = `${project.dateCreated} † ${project.dateCanceled}`;
     } else if (project.dateCreated) {
       dateText = `${project.dateCreated}`;
     } else if (project.dateCanceled) {
