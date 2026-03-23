@@ -6,7 +6,7 @@ const projects = {
       dateCreated: 'Oct 25, 2024',
       description: 'This page (and its older versions)',
       websiteUrl: 'https://wejkey.org',
-      tags: ['v2026+2.0.4']
+      tags: ['v2026+2.0.5']
     },
     {
       icon: 'fa-solid fa-wrench',
