@@ -1,18 +1,25 @@
-## [v2026+2.0.5] - March 24, 2026 
+## [v2026+2.0.6] - March 24, 2026 (SD)
+
+### Fixed
+- Changelog version styling
+
+--------------------------
+
+## [v2026+2.0.5] - March 24, 2026
 
 ### Updated
 - About Me
 
 --------------------------
 
-## [v2026+2.0.4] - March 23, 2026 
+## [v2026+2.0.4] - March 23, 2026
 
 ### Updated
 - Changelog style
 
 --------------------------
 
-## [v2026+2.0.3] - March 20, 2026 
+## [v2026+2.0.3] - March 20, 2026
 
 ### Changed
 - Canceled projects now use "†" instead of dots :)
@@ -122,7 +129,7 @@
 
 --------------------------
 
-### [v2026+1.9] - February 3, 2026
+## [v2026+1.9] - February 3, 2026
 
 ### Updated
 - Projects
