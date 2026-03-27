@@ -1,6 +1,6 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+    <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -20,78 +20,81 @@
     <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/184445277?v=4">
 
     <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/184445277?v=4">
-  </head>
-  <body>
-    <main class="status-card" role="main" aria-labelledby="status-title">
-      <h1 class="eyebrow">Temporary downtime</h1>
 
-      <section class="next-window" aria-live="polite">
-        <h2>Expected return on March 27, 2025 - 22:00 UTC</h2>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+
+  <body>
+    <canvas id="particles-canvas" aria-hidden="true"></canvas>
+
+    <header class="site-header">
+      <a class="brand" href="#landing">WEJKEY</a>
+      <a class="button ghost" href="changelog.md">Changelog</a>
+    </header>
+
+    <main>
+      <section id="landing" class="landing section">
+        <div class="landing-content reveal">
+          <p class="countdown-pill" id="countdown">Loading countdown...</p>
+          <h1>Hi, I'm <span class="gradient-text">Wejkey</span>.</h1>
+          <p>
+            Someone making something somewhere🗿
+          </p>
+          <div class="actions">
+            <a class="button" href="#projects">View Projects</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section container">
+        <div class="section-title reveal">
+          <p class="eyebrow">Work</p>
+          <h2>Projects</h2>
+        </div>
+
+        <h3 class="subheading reveal">Primary Projects</h3>
+        <div class="grid reveal-group" id="primary-projects-grid"></div>
+
+        <h3 class="subheading reveal">All Projects</h3>
+        <div class="grid reveal-group" id="all-projects-grid"></div>
+      </section>
+
+      <section id="about" class="section container">
+        <div class="about-grid">
+          <div class="reveal">
+            <p class="eyebrow">About Me</p>
+            <h2>How do I identify or whatever</h2>
+          </div>
+          <div class="reveal">
+            <p>
+              I'm 17 years old Slovak. Still and again studying, working on everything you can find here.
+            </p>
+            <p>
+              If I'm working on something, it's probably project for 3-9 months, depends on how much dopamine I get from it. That means, half of these projects wont be updated after release.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="discord" class="section container reveal">
+        <p class="eyebrow">Community</p>
+        <h2>Discord Server</h2>
+        <p>
+          If you want something, join, ask, leave or stay.
+        </p>
+        <a class="button" href="https://discord.wejkey.org/" target="_blank" rel="noopener noreferrer">Join</a>
       </section>
     </main>
 
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024-2026 Wejkey. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script/projects.js"></script>
+    <script src="script/main.js"></script>
+    <script src="script/particles.js"></script>
   </body>
-
-  <style>
-    :root {
-  --primary: #ff6b9d;
-  --primary-strong: #e85c8b;
-  --bg: #0a0612;
-  --card: rgba(20, 10, 18, 0.75);
-  --muted: #d4b7c7;
-  --text: #f8e8f4;
-  --accent: #ffa1d8;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  min-height: 100vh;
-  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-  color: var(--text);
-  background: var(--bg);
-  display: grid;
-  place-items: center;
-  padding: 1.5rem;
-}
-
-.status-card {
-  width: min(680px, 100%);
-  background: var(--card);
-  border: 1px solid var(--accent);
-  border-radius: 1rem;
-  backdrop-filter: blur(8px);
-  padding: clamp(1.25rem, 2vw + 1rem, 2rem);
-  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.35);
-}
-
-.eyebrow {
-  color: var(--accent);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-weight: 600;
-  margin: 0;
-}
-
-h1 {
-  margin: 0.5rem 0 1rem;
-  font-size: 1.5rem;
-}
-
-h2 {
-  margin: 0;
-  font-size: 1.12rem;
-  color: var(--muted);
-  font-weight: 600;
-}
-
-.next-window {
-  margin-top: 1.2rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--accent);
-}
-  </style>
 </html>

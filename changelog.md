@@ -1,0 +1,382 @@
+## [v2026+3.0.0] - March 27, 2026 
+
+### Updated
+- Every single part of site
+
+--------------------------
+
+## [v2026+2.0.5] - March 24, 2026 
+
+### Updated
+- About Me
+
+--------------------------
+
+## [v2026+2.0.4] - March 23, 2026 
+
+### Updated
+- Changelog style
+
+--------------------------
+
+## [v2026+2.0.3] - March 20, 2026 
+
+### Changed
+- Canceled projects now use "†" instead of dots :)
+
+### Fixed
+- Projects cancelation dates
+
+### Removed
+- Contact email
+
+--------------------------
+
+## [v2026+2.0.2] - March 13, 2026 (SD)
+
+### Updated
+- Footer
+
+--------------------------
+
+## [v2026+2.0.1] - March 13, 2026
+
+### Updated
+- About me
+
+--------------------------
+
+## [v2026+2.0.0] - March 12, 2026
+
+### Updated
+- Coloring
+
+--------------------------
+
+## [v2026+1.0.17] - February 17, 2026 (SD)
+
+### Updated
+- Scrollbar
+- Main font
+- Footer
+- Buttons
+- Filter "Archived" -> "Canceled"
+
+## Removed
+- "eyebrow". Text above section title
+
+--------------------------
+
+## [v2026+1.0.16] - February 17, 2026 (SD)
+
+### Updated
+- Primly project link
+
+--------------------------
+
+## [v2026+1.0.15] - February 17, 2026 (SD)
+
+### Added
+- "Primly" to navbar
+
+### Updated
+- Projects
+- About me
+
+--------------------------
+
+## [v2026+1.0.14] - February 17, 2026
+
+### Updated
+- Updated links
+
+--------------------------
+
+## [v2026+1.0.13] - February 16, 2026
+
+### Updated
+- Updated links
+
+--------------------------
+
+## [v2026+1.0.12] - February 11, 2026
+
+### Updated
+- Updated links
+
+### Removed
+- Database
+
+--------------------------
+
+## [v2026+1.0.11] - February 10, 2026
+
+### Updated
+- versioning
+- projects
+- modrinth link
+
+--------------------------
+
+## [v2026+1.10] - February 7, 2026
+
+### Updated
+- Contact buttons
+- Projects
+
+### Removed
+- Timeline
+
+--------------------------
+
+### [v2026+1.9] - February 3, 2026
+
+### Updated
+- Projects
+
+--------------------------
+
+## [v2026+1.8] - February 1, 2026
+
+### Fixed
+- Wrong changelog versions
+
+### Updated
+- Projects
+
+--------------------------
+
+## [v2026+1.7] - January 28, 2026
+
+### Fixed
+- "_" in homepage icons
+
+### Updated
+- Projects
+
+--------------------------
+
+## [v2026+1.6] - January 27, 2026
+
+### Updated
+- Projects
+- Navbar
+- Homepage text
+
+### Removed
+- CNEP, McUtility, Review and "Plugin Development" from Archive
+- Loading
+
+--------------------------
+
+## [v2026+1.5] - January 21, 2026
+
+### Updated
+- Archived projects
+- All projects' versions
+
+### Removed
+- Versions of projects that dont't need versioning or versioning is NA
+- Github repositories that are useless or have been archived for a long time (CNEP, InternationalMC, Valentines, review.wejkey.org)
+
+--------------------------
+
+## [v2026+1.4] - January 18, 2026
+
+### Changed
+- Project "Preminent Network" (Active) -> (Planning)
+- Loading speed
+
+### Updated
+- About me
+
+### Removed
+- "Focus" box on homepage
+- Steam and Modrinth as socials on homepage
+
+--------------------------
+
+## [v2026+1.3] - January 17, 2026
+
+### Changed
+- Discord link
+
+### Removed
+- review.wejkey.org
+
+--------------------------
+
+## [v2026+1.2] - January 11, 2026
+
+### Fixed
+- Changelog styling in some older versions (forgot "###")
+
+### Changed
+- "Check these" -> "Focus" and its projects
+- Loading speed
+
+### Updated
+- About me
+- Timeline
+
+### Removed
+- Preminent versioning
+
+--------------------------
+
+## [v2026+1.1] - January 1, 2026
+
+### Changed
+- Github link project changed to link to website of specific project
+
+--------------------------
+
+# END OF YEAR 2025
+
+--------------------------
+
+## [v2026+1.0] - December 31, 2025
+
+Wejkey.org (wejkey.github.io/wejkeyy.github.io) exists since 2024. Thats 3 years
+of development, new projects and learning. Thanks for checking this page or any project I developed. It means a lot.
+
+I hope, 2026 will be as best as it can be for you.
+
+--------------------------
+
+## [v2026+1.0-beta.8] - December 30, 2025
+
+### Changed
+- Planning project name
+- Temporary paused development for Database
+
+--------------------------
+
+## [v2026+1.0-beta.7] - December 27, 2025
+
+### Added
+- Planning projects > "Minecraft server"
+
+--------------------------
+
+## [v2026+1.0-beta.6] - December 26, 2025
+
+### Fixed
+- Grammar errors
+- Minor details
+
+### Changed
+- Hero card (aka "Check these")
+
+--------------------------
+
+## [v2026+1.0-beta.5] - December 22, 2025 (SD)
+
+### Fixed
+- Portfolio release date in projects
+
+--------------------------
+
+## [v2026+1.0-beta.4] - December 22, 2025
+
+### Removed
+- PaperMC Hangar
+- Two primary buttons
+
+--------------------------
+
+## [v2026+1.0-beta.3] - December 20, 2025
+
+### Fixed
+- Grammar
+
+### Changed
+- Loading time
+- Timeline
+
+### Removed
+- Future
+
+--------------------------
+
+## [v2026+1.0-beta.2] - December 19, 2025
+
+### Removed
+- Every .txt note in notes (only changelog stays)
+- Updated versions
+
+--------------------------
+
+## [v2026+1.0-beta.1] - December 15, 2025
+
+### Added
+- Responsive
+
+--------------------------
+
+## [v2026+1.0-beta] - December 14, 2025
+
+### Added
+- "Future" section
+
+### Changed
+- General "wejkey.org" redesign
+
+--------------------------
+
+## [3.1.5] - December 3, 2025
+
+### Added
+- More "contact" icons
+
+### Changed
+- Merged Database & Plugins into one project on homepage
+- Database to general base for my projects, not just Minecraft plugins
+
+### Removed
+- Project "Plugins"
+
+--------------------------
+
+## [3.1.4] - November 23, 2025
+
+### Added
+- Database
+
+--------------------------
+
+## [3.1.3] - November 21, 2025
+
+### Changed
+- "MC plugins" > "Plugins"
+- Changed description for project "Plugins"
+- Discord contact
+
+--------------------------
+
+## [3.1.2] - November 20, 2025 (SD)
+
+### Changed
+- Contact icon "redirect" > "copy"
+
+--------------------------
+
+## [3.1.1] - November 20, 2025
+
+### Added
+- New project
+
+### Changed
+- "Plugins" Archived > Active
+
+--------------------------
+
+## [3.1] - November 19, 2025
+
+### Added
+- Notes
+
+### Changed
+- Main theme to "Winter"
+
+--------------------------
