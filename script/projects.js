@@ -15,16 +15,6 @@ const primaryProjects = [
   }
 ];
 
-// const allProjects = [
-//   {
-//     name: 'Minecraft Server',
-//     createdAt: '2025-12-27',
-//     version: 'N/A',
-//     description: 'Still planning',
-//     link: 'https://none.wejkey.org',
-//   }
-// ];
-
 function formatCreatedDate(isoDate) {
   const date = new Date(`${isoDate}T00:00:00`);
 
@@ -53,14 +43,8 @@ function projectCardTemplate(project, featured = false) {
 
 function renderProjects() {
   const primaryContainer = document.querySelector('#primary-projects-grid');
-  const allContainer = document.querySelector('#all-projects-grid');
-
-  if (!primaryContainer || !allContainer) {
-    return;
-  }
 
   primaryContainer.innerHTML = primaryProjects.map((project) => projectCardTemplate(project, true)).join('');
-  allContainer.innerHTML = allProjects.map((project) => projectCardTemplate(project)).join('');
 }
 
 renderProjects();
