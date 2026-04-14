@@ -2,7 +2,7 @@ const primaryProjects = [
   {
     name: 'Portfolio',
     createdAt: '2024-10-25',
-    version: 'v2026+3.0.0',
+    version: 'v2026+3.0.2',
     description: 'This page (and its older versions)',
     link: '',
   },
