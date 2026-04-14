@@ -1,3 +1,15 @@
+## [v2026+3.0.2] - April 15, 2026 
+
+### Added
+- Primly project Terms of Use. Read before install.
+
+### Updated
+- Primly version
+
+Important Primly update.
+
+--------------------------
+
 ## [v2026+3.0.1] - April 8, 2026 
 
 ### Updated
