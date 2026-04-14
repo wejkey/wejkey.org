@@ -9,7 +9,7 @@ const primaryProjects = [
   {
     name: 'Primly',
     createdAt: '2026-02-01',
-    version: 'v2026+1.0.3',
+    version: 'v2026+1.0.4',
     description: 'Minecraft server plugins and resourcepacks',
     link: 'https://primly.wejkey.org',
   }
