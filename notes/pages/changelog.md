@@ -1,3 +1,12 @@
+## [v2026+3.1.1] - April 16, 2026 
+
+### Updated
+- Primly version
+- Primly website
+- Wejkey Notes
+
+--------------------------
+
 ## [v2026+3.1.0] - April 15, 2026 
 
 ### Added
