@@ -2,14 +2,14 @@ const primaryProjects = [
   {
     name: 'Portfolio',
     createdAt: '2024-10-25',
-    version: 'v2026+3.1.0',
+    version: 'v2026+3.1.1',
     description: 'This page (and its older versions)',
     link: '',
   },
   {
     name: 'Primly',
     createdAt: '2026-02-01',
-    version: 'v2026+1.0.4',
+    version: 'v2026+2.0.0',
     description: 'Minecraft server plugins and resourcepacks',
     link: 'https://primly.wejkey.org',
   }
