@@ -1,3 +1,13 @@
+## [v2026+3.2.0] - April 17, 2026 
+
+## Updated
+- About me
+
+### Removed
+- Primly website
+
+--------------------------
+
 ## [v2026+3.1.1] - April 16, 2026 
 
 ### Updated
