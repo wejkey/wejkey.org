@@ -5,6 +5,12 @@ const primaryProjects = [
     version: 'v2026+3.2.0',
     description: 'This page (and its older versions)',
     link: '',
+  },
+  {
+    name: 'Primly',
+    createdAt: '2026-02-01',
+    description: 'Minecraft server plugins and resourcepacks',
+    link: 'https://modrinth.com/organization/primly',
   }
 ];
 
