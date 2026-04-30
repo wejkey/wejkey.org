@@ -29,7 +29,7 @@ function initializeCountdown() {
     return;
   }
 
-  const targetDate = new Date('2026-05-22T00:00:00');
+  const targetDate = new Date('2026-05-22T06:00:00');
 
   function updateCountdown() {
     const now = new Date();
