@@ -40,8 +40,6 @@ function projectCardTemplate(project, featured = false) {
 
 function renderProjects() {
   const primaryContainer = document.querySelector('#primary-projects-grid');
-
   primaryContainer.innerHTML = primaryProjects.map((project) => projectCardTemplate(project, true)).join('');
 }
-
 renderProjects();
