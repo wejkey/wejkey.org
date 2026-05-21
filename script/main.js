@@ -36,7 +36,7 @@ function initializeCountdown() {
     const diff = targetDate - now;
 
     if (diff <= 0) {
-      countdownElement.textContent = 'Countdown finished';
+      countdownElement.textContent = '🎉 Fresh 18';
       return;
     }
 
