@@ -29,14 +29,14 @@ function initializeCountdown() {
     return;
   }
 
-  const targetDate = new Date('2026-05-22T06:00:00');
+  const targetDate = new Date('2027-05-22T06:00:00');
 
   function updateCountdown() {
     const now = new Date();
     const diff = targetDate - now;
 
     if (diff <= 0) {
-      countdownElement.textContent = '🎉 Fresh 18';
+      countdownElement.textContent = '🎉 Fresh 19';
       return;
     }
 
